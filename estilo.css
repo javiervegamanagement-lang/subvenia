@@ -81,6 +81,10 @@ section .intro { color: var(--gris); max-width: 680px; margin: 0 0 32px; }
 .plan .precio { font-size: 32px; font-weight: 800; color: var(--verde); margin: 6px 0; }
 .plan .precio small { font-size: 15px; color: var(--gris); font-weight: 400; }
 .plan ul { padding-left: 20px; margin: 12px 0 0; color: var(--gris); }
+.fundador { display: inline-block; background: var(--amarillo); color: #222; font-size: 12px; font-weight: 700;
+  padding: 3px 9px; border-radius: 10px; margin-top: 4px; }
+.plan .antes { font-size: 17px; color: var(--gris); font-weight: 400; margin-left: 6px; }
+.plan .letra { font-size: 14px; color: var(--gris); margin: 0; }
 .aviso-prueba { background: var(--verde-claro); border-radius: 12px; padding: 14px 18px; margin-top: 22px; }
 
 /* formulario */
