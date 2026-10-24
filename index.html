@@ -116,9 +116,10 @@
     <h2>Pruébalo gratis</h2>
     <p class="intro">Te mandaremos un email para confirmar tu dirección. A partir de ahí, cada lunes recibirás las ayudas que encajan con tu negocio.</p>
 
-    <!-- El formulario envía los datos a Brevo (alta con doble confirmación).
-         FORMULARIO_BREVO: sustituir por la dirección del formulario creado en Brevo (ver GUIA_FASE2.md). -->
-    <form class="formulario" id="formulario" method="POST" action="FORMULARIO_BREVO">
+    <!-- El formulario envía los datos al formulario "Alta web Subvenia" de Brevo (doble confirmación).
+         Brevo devuelve a esta página con ?alta=enviada y, al confirmar el email, con ?alta=confirmada. -->
+    <p class="mensaje" id="aviso-alta" hidden></p>
+    <form class="formulario" id="formulario" method="POST" action="https://8831c104.sibforms.com/serve/MUIFACYdYLp6vQTx25931e68mpU7sSPS1Keh0GLbEaPkjOUKpbEDysNWGiIK2pgWBECduWMKRI5A9-oets6knBGyFL_vCkjZHSl4D4H5cY3e3-fNWCQAuCuaVkP-2QcYxa4hao9NHNZFTH7BM57NC7c3OUe9sjql3HIFf2MHhZ7_zeFUWRcwcLCdWeMp7ixyZlSNQ0sJgP84WAP1Jg==">
       <div class="campo">
         <label for="EMAIL">Tu email</label>
         <input type="email" id="EMAIL" name="EMAIL" required autocomplete="email" placeholder="tu@negocio.es">
@@ -167,6 +168,7 @@
       <!-- trampa para robots: una persona no ve este campo -->
       <div class="oculto" aria-hidden="true"><input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off"></div>
       <input type="hidden" name="locale" value="es">
+      <input type="hidden" name="html_type" value="simple">
       <label class="consentimiento">
         <input type="checkbox" name="OPT_IN" value="1" required>
         <span>Quiero recibir cada lunes el boletín de ayudas de Subvenia. He leído la <a href="privacidad.html">política de privacidad</a>. Puedo darme de baja cuando quiera desde cualquier email.</span>
@@ -206,6 +208,18 @@
     municipio.required = !gestoria;
     if (gestoria) municipio.value = "";
   });
+  // Vuelta desde Brevo: avisar de que revise su email o de que ya está dentro
+  const alta = new URLSearchParams(location.search).get("alta");
+  const textos = {
+    enviada: "¡Casi está! Te hemos enviado un email: pulsa el enlace de confirmación para empezar a recibir tus ayudas. Si no lo ves, mira en Spam o Promociones.",
+    confirmada: "¡Ya estás dentro! El próximo lunes recibirás tus primeras ayudas. Si una semana no hay nada nuevo para ti, no te escribiremos.",
+  };
+  if (textos[alta]) {
+    const aviso = document.getElementById("aviso-alta");
+    aviso.textContent = textos[alta];
+    aviso.hidden = false;
+    document.getElementById("alta").scrollIntoView();
+  }
   // Mientras el formulario de Brevo no esté conectado (action sigue siendo FORMULARIO_BREVO), no se envía nada
   const formulario = document.getElementById("formulario");
   formulario.addEventListener("submit", (e) => {
