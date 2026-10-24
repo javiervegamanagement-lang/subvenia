@@ -12,25 +12,41 @@
 
 <main class="legal">
 <h1>Darse de baja</h1>
-<p id="texto-email">Pulsa el botón y dejarás de recibir el boletín.</p>
-<p><a class="boton" id="boton-baja" href="mailto:subveniamanage@gmail.com?subject=BAJA">Darme de baja</a></p>
-<p style="color:var(--gris);font-size:15px">Se abrirá tu programa de correo con un email de baja ya escrito: solo tienes que darle a <b>Enviar</b>.
-Lo procesamos automáticamente cada mañana y no volverás a recibir ningún boletín. Si prefieres, escríbenos a
-<a href="mailto:subveniamanage@gmail.com">subveniamanage@gmail.com</a> con la palabra BAJA.</p>
-<p>¿Solo querías cambiar de sector o de municipio? <a href="index.html#alta">Apúntate otra vez con los datos nuevos</a>.</p>
+
+<div id="hecha" hidden>
+  <p class="mensaje"><b>Hecho: te has dado de baja.</b> No volverás a recibir ningún boletín de Subvenia. Gracias por haberlo probado.</p>
+  <p>¿Ha sido un error, o solo querías cambiar de sector o de municipio? <a href="index.html#alta">Apúntate otra vez</a>.</p>
+</div>
+
+<!-- Formulario de cancelación "Baja Subvenia" de Brevo: el contacto queda dado de baja al momento
+     y Brevo devuelve aquí con ?baja=hecha. El enlace de cada boletín trae el email: baja.html?e=nombre@dominio.es -->
+<form id="formulario-baja" class="formulario" method="POST"
+      action="https://8831c104.sibforms.com/serve/MUIFAJI9LZMFX3Fh1t2L985Z-DpNkLpWVtGqjlpe-fMASkgIKDbOaBUXIxE2IYlcLOgxALzU2YUwgtBpBZnwIdiFWgFmqtZFYD3cC3MWaWfbW6p-O0XwxF-uH7ww42SfmNmpgos7mx2HjV2feKhYL5l8hREMKr6BkvDwYWHqdiTrg9rHo6XmUxVwz_cwZw-U8uCE6WcTntwKf7zr6g==">
+  <div class="campo">
+    <label for="EMAIL">Email con el que recibes el boletín</label>
+    <input type="email" id="EMAIL" name="EMAIL" required autocomplete="email" placeholder="tu@negocio.es">
+  </div>
+  <!-- trampa para robots: una persona no ve este campo -->
+  <div class="oculto" aria-hidden="true"><input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off"></div>
+  <input type="hidden" name="locale" value="es">
+  <input type="hidden" name="html_type" value="simple">
+  <button class="boton" type="submit">Darme de baja</button>
+  <p style="color:var(--gris);font-size:14px;margin:14px 0 0">Al pulsar, dejas de recibir el boletín al momento.
+  Si tienes cualquier problema, escríbenos a <a href="mailto:subveniamanage@gmail.com?subject=BAJA">subveniamanage@gmail.com</a> con la palabra BAJA.</p>
+</form>
 </main>
 
 <footer class="pie"><div class="envoltura"><p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p></div></footer>
 
 <script>
-  // El enlace de cada boletín trae el email del suscriptor: baja.html?e=nombre@dominio.es
-  const email = new URLSearchParams(location.search).get("e") || "";
+  const datos = new URLSearchParams(location.search);
+  if (datos.get("baja") === "hecha") {
+    document.getElementById("hecha").hidden = false;
+    document.getElementById("formulario-baja").hidden = true;
+  }
+  const email = datos.get("e") || "";
   if (/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
-    document.getElementById("texto-email").textContent =
-      "Vas a dar de baja " + email + ". Pulsa el botón y dejarás de recibir el boletín.";
-    document.getElementById("boton-baja").href =
-      "mailto:subveniamanage@gmail.com?subject=" + encodeURIComponent("BAJA " + email) +
-      "&body=" + encodeURIComponent("Quiero darme de baja de Subvenia: " + email);
+    document.getElementById("EMAIL").value = email;
   }
 </script>
 </body>
