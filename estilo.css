@@ -98,6 +98,15 @@ section .intro { color: var(--gris); max-width: 680px; margin: 0 0 32px; }
 .consentimiento { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: var(--gris); margin: 18px 0; }
 .consentimiento input { margin-top: 4px; width: 18px; height: 18px; flex: none; }
 .oculto { position: absolute; left: -5000px; }
+
+/* contador (Fase A5) */
+.contador-elige { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 18px; }
+.contador-elige select {
+  flex: 1 1 220px; padding: 12px; border: 1px solid #b9c2bd; border-radius: 10px; font-size: 16px; background: var(--blanco);
+}
+.contador-cifra { font-size: 20px; line-height: 1.45; margin: 0 0 10px; max-width: 760px; }
+.contador-cifra b { color: var(--verde); font-size: 26px; }
+#contador .nota { color: var(--gris); font-size: 13px; max-width: 760px; margin: 0; }
 .mensaje { padding: 12px 14px; border-radius: 10px; background: var(--amarillo-claro); font-size: 15px; margin-top: 14px; }
 
 /* preguntas */

@@ -43,6 +43,27 @@
   </div>
 </section>
 
+<!-- Contador (Fase A5): se enseña solo si existe datos/contador.json (interruptor "contador_valor") -->
+<section class="blanco" id="contador" hidden>
+  <div class="envoltura">
+    <h2>¿Cuántas ayudas hay ahora mismo para ti?</h2>
+    <div class="contador-elige">
+      <select id="contador-provincia" aria-label="Provincia"></select>
+      <select id="contador-sector" aria-label="Tu negocio"></select>
+    </div>
+    <p class="contador-cifra" id="contador-cifra"></p>
+    <p class="nota" id="contador-nota"></p>
+  </div>
+</section>
+
+<!-- Casos reales (Fase A5): solo con testimonios reales y con permiso (config/testimonios.yaml). Vacío = no se ve -->
+<section id="casos" hidden>
+  <div class="envoltura">
+    <h2>Lo que dicen quienes ya lo usan</h2>
+    <div class="pasos" id="casos-lista"></div>
+  </div>
+</section>
+
 <section class="blanco" id="ejemplo">
   <div class="envoltura dos-columnas">
     <div>
@@ -220,6 +241,51 @@
     aviso.hidden = false;
     document.getElementById("alta").scrollIntoView();
   }
+  // Contador y casos reales: si los archivos no están (interruptor apagado), las secciones siguen ocultas
+  const SECTORES = {comercio: "comercio", hosteleria: "hostelería", profesionales: "despachos y servicios",
+    construccion: "construcción", industria: "industria", transporte: "transporte", agricultura: "agricultura",
+    bares_restaurantes: "bares y restaurantes", alojamiento: "alojamiento", peluqueria_estetica: "peluquería y estética",
+    talleres_vehiculos: "talleres", transporte_autonomo: "transportistas y taxis", alimentacion_artesana: "alimentación artesana",
+    gestoria: "todos los sectores (gestorías)"};
+  const euros = (x) => Math.round(x).toLocaleString("es-ES") + " €";
+  fetch("datos/contador.json").then((r) => r.ok ? r.json() : null).then((d) => {
+    if (!d || !d.provincias || !Object.keys(d.provincias).length) return;
+    const selProv = document.getElementById("contador-provincia"), selSec = document.getElementById("contador-sector");
+    Object.keys(d.provincias).sort((a, b) => a.localeCompare(b, "es")).forEach((p) => selProv.add(new Option(p, p)));
+    Object.keys(SECTORES).forEach((s) => selSec.add(new Option(SECTORES[s], s)));
+    if (d.provincias["Cantabria"]) selProv.value = "Cantabria";
+    const pinta = () => {
+      const c = (d.provincias[selProv.value] || {})[selSec.value];
+      const cifra = document.getElementById("contador-cifra");
+      if (!c) { cifra.textContent = "Ahora mismo no hay ninguna abierta de la comunidad, la provincia o el Estado. Las de tu ayuntamiento te las contamos en el boletín."; return; }
+      cifra.innerHTML = "";
+      const b = document.createElement("b");
+      b.textContent = c.ayudas + (c.ayudas === 1 ? " ayuda abierta" : " ayudas abiertas");
+      cifra.append(b, " en " + selProv.value + " para " + SECTORES[selSec.value] +
+        (c.presupuesto ? ". Las autonómicas y provinciales suman " + euros(c.presupuesto) + " de presupuesto." : "."));
+    };
+    selProv.addEventListener("change", pinta);
+    selSec.addEventListener("change", pinta);
+    pinta();
+    const [a, m, dia] = d.fecha.split("-");
+    document.getElementById("contador-nota").textContent = "Actualizado el " + dia + "/" + m + "/" + a +
+      ". Cuenta las de la comunidad, la provincia y el Estado; las de ayuntamientos van aparte, en tu boletín. " +
+      "El presupuesto no incluye las estatales, que se reparten en toda España. Fuente: BDNS.";
+    document.getElementById("contador").hidden = false;
+  }).catch(() => {});
+  fetch("datos/testimonios.json").then((r) => r.ok ? r.json() : []).then((lista) => {
+    if (!Array.isArray(lista) || !lista.length) return;
+    const caja = document.getElementById("casos-lista");
+    lista.forEach((t) => {
+      const div = document.createElement("div"), p = document.createElement("p"), h = document.createElement("h3");
+      div.className = "paso";
+      p.textContent = "«" + t.frase + "»";
+      h.textContent = t.nombre + " · " + t.negocio;
+      div.append(p, h);
+      caja.append(div);
+    });
+    document.getElementById("casos").hidden = false;
+  }).catch(() => {});
   // Mientras el formulario de Brevo no esté conectado (action sigue siendo FORMULARIO_BREVO), no se envía nada
   const formulario = document.getElementById("formulario");
   formulario.addEventListener("submit", (e) => {
