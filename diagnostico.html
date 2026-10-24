@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico de ayudas · Subvenia</title>
+<meta name="description" content="En un minuto: cuántas ayudas públicas abiertas hay ahora mismo para tu negocio en tu municipio, con ejemplos. Datos oficiales de la BDNS.">
+<link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%230F5132'/></svg>">
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="envoltura">
+    <a class="marca" href="./">Subvenia</a>
+    <nav><a class="boton pequeno" href="./#alta">Pruébalo gratis</a></nav>
+  </div>
+</header>
+
+<section>
+  <div class="envoltura">
+    <h2>¿Cuántas ayudas hay ahora mismo para tu negocio?</h2>
+    <p class="intro">Elige tu negocio, tu provincia y tu municipio. En un segundo te decimos cuántas ayudas públicas abiertas hay para ti y te enseñamos algunas. Sin dejar tu email.</p>
+
+    <p class="mensaje" id="diag-pronto" hidden>El diagnóstico se abre muy pronto. Mientras tanto, <a href="./#alta">apúntate gratis</a> y te avisamos de tus ayudas cada lunes.</p>
+
+    <form class="formulario" id="diag-form" hidden>
+      <div class="campo">
+        <label for="d-sector">Tu negocio</label>
+        <select id="d-sector" required>
+          <option value="">Elige uno…</option>
+          <option value="comercio">Comercio o tienda</option>
+          <option value="bares_restaurantes">Bar, restaurante o cafetería</option>
+          <option value="peluqueria_estetica">Peluquería, barbería o estética</option>
+          <option value="alimentacion_artesana">Panadería, obrador o tienda de alimentación</option>
+          <option value="talleres_vehiculos">Taller de coches o motos</option>
+          <option value="transporte_autonomo">Taxi, transportista o mensajería</option>
+          <option value="alojamiento">Hotel, casa rural o alojamiento</option>
+          <option value="profesionales">Despacho o servicios a empresas</option>
+          <option value="construccion">Construcción y reformas</option>
+          <option value="industria">Industria o fábrica</option>
+          <option value="transporte">Empresa de transporte o logística</option>
+          <option value="agricultura">Agricultura, ganadería o pesca</option>
+        </select>
+      </div>
+      <div class="campo">
+        <label for="d-provincia">Provincia</label>
+        <select id="d-provincia" required><option value="">Elige tu provincia…</option></select>
+        <p class="ayuda">En Baleares y Canarias, elige tu isla.</p>
+      </div>
+      <div class="campo">
+        <label for="d-municipio">Municipio de tu negocio</label>
+        <input type="text" id="d-municipio" list="d-municipios" autocomplete="address-level2" placeholder="Por ejemplo: Santander">
+        <datalist id="d-municipios"></datalist>
+        <p class="ayuda">Para sumar las ayudas de tu ayuntamiento.</p>
+      </div>
+      <button class="boton" type="submit">Ver mis ayudas</button>
+    </form>
+
+    <div id="diag-resultado" hidden>
+      <p class="contador-cifra" id="diag-cifra"></p>
+      <div class="pasos" id="diag-ejemplos"></div>
+      <p style="margin:24px 0 8px"><a class="boton" id="diag-alta" href="./#alta">Recibir mis ayudas cada lunes</a></p>
+      <p class="nota" id="diag-nota"></p>
+    </div>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="envoltura">
+    <p><b>Subvenia</b> · Ayudas públicas para pequeños negocios, explicadas sin letra pequeña.</p>
+    <p>Fuente de los datos: BDNS (Base de Datos Nacional de Subvenciones, Ministerio de Hacienda).</p>
+    <p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p>
+  </div>
+</footer>
+
+<script>
+  // Igual que reglas.normaliza del motor: mayúsculas, sin tildes, "PALMAS, LAS" -> "LAS PALMAS"
+  const normaliza = (t) => {
+    t = (t || "").toUpperCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/’/g, "'").trim();
+    const i = t.lastIndexOf(",");
+    if (i >= 0) {
+      const nombre = t.slice(0, i).trim(), art = t.slice(i + 1).trim();
+      if (art.length <= 4) t = art.endsWith("'") ? art + nombre : art + " " + nombre;
+    }
+    return t;
+  };
+  const $ = (id) => document.getElementById(id);
+  const json = (ruta) => fetch(ruta).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const BASE = "datos/diagnostico/";
+  let indice = null, municipios = {};
+
+  json(BASE + "indice.json").then(async (ind) => {
+    if (!ind || !ind.provincias) { $("diag-pronto").hidden = false; return; }
+    indice = ind;
+    Object.keys(ind.provincias).sort((a, b) => a.localeCompare(b, "es")).forEach((p) => $("d-provincia").add(new Option(p, p)));
+    municipios = (await json(BASE + "municipios.json")) || {};
+    Object.values(municipios).forEach((m) => $("d-municipios").append(new Option(m.nombre)));
+    const q = new URLSearchParams(location.search);   // se puede llegar con todo rellenado
+    if (q.get("sector")) $("d-sector").value = q.get("sector");
+    if (q.get("provincia")) $("d-provincia").value = q.get("provincia");
+    if (q.get("municipio")) $("d-municipio").value = q.get("municipio");
+    $("diag-form").hidden = false;
+  });
+
+  // Tarjeta de ejemplo: todo con textContent (los textos vienen de la BDNS)
+  const linea = (texto, negrita) => {
+    const p = document.createElement("p");
+    if (negrita) { const b = document.createElement("b"); b.textContent = negrita; p.append(texto, b); } else p.textContent = texto;
+    return p;
+  };
+  const tarjeta = (e) => {
+    const div = document.createElement("div"); div.className = "paso";
+    const h = document.createElement("h3"); h.textContent = e.titulo; div.append(h);
+    const o = linea(e.ambito + " · " + e.organo); o.style.fontSize = "14px"; div.append(o);
+    if (e.cuanto) div.append(linea("💶 ", e.cuanto));
+    div.append(linea("📅 " + e.plazo));
+    const a = document.createElement("a"); a.href = e.ficha; a.textContent = "Ficha oficial (BDNS)"; a.rel = "noopener"; a.target = "_blank";
+    const pa = document.createElement("p"); pa.append(a); div.append(pa);
+    return div;
+  };
+
+  $("diag-form").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const sector = $("d-sector").value, prov = $("d-provincia").value, muni = $("d-municipio").value.trim();
+    if (!sector || !prov) return;
+    const datos = await json(BASE + indice.provincias[prov] + ".json");
+    const general = ((datos && datos.sectores) || {})[sector] || { ayudas: 0, ejemplos: [] };
+    const m = muni ? municipios[normaliza(muni)] : null;
+    const local = (m && m.sectores[sector]) || { ayudas: 0, ejemplos: [] };
+    const total = general.ayudas + local.ayudas;
+    const nombreSector = $("d-sector").selectedOptions[0].text.toLowerCase();
+    const sitio = muni ? (m ? m.nombre : muni) + " (" + prov + ")" : prov;
+    const cifra = $("diag-cifra"); cifra.textContent = "";
+    if (total) {
+      const b = document.createElement("b"); b.textContent = total + (total === 1 ? " ayuda abierta" : " ayudas abiertas");
+      cifra.append("Ahora mismo hay ", b, " para " + nombreSector + " en " + sitio + (local.ayudas ? ", " + local.ayudas + " de ellas de tu ayuntamiento." : "."));
+    } else {
+      cifra.textContent = "Ahora mismo no hay ninguna abierta para " + nombreSector + " en " + sitio + ". Salen convocatorias nuevas cada semana: apúntate y te avisamos en cuanto salga la tuya.";
+    }
+    const ej = $("diag-ejemplos"); ej.textContent = "";
+    [...local.ejemplos, ...general.ejemplos].slice(0, 2).forEach((e) => ej.append(tarjeta(e)));
+    $("diag-alta").href = "./?" + new URLSearchParams({ sector, provincia: prov, municipio: muni }).toString() + "#alta";
+    const [a, mes, d] = indice.fecha.split("-");
+    $("diag-nota").textContent = "Datos del " + d + "/" + mes + "/" + a + ". Fuente: BDNS. Cuenta las ayudas de tu ayuntamiento, tu diputación, tu comunidad y el Estado que encajan con tu sector y siguen abiertas. Información orientativa: mandan las bases oficiales de cada ayuda.";
+    $("diag-resultado").hidden = false;
+    $("diag-resultado").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+</script>
+</body>
+</html>

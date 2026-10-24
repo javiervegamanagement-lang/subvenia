@@ -28,6 +28,7 @@
     <p>Cada lunes, un email con las ayudas y subvenciones que puede pedir tu negocio: las de tu ayuntamiento, tu comunidad y el Estado. Qué te dan, para quién son, hasta cuándo y qué papeles piden. Sin leerte el boletín oficial.</p>
     <a class="boton" href="#alta">Pruébalo gratis</a>
     <p class="nota">Gratis durante la prueba. Sin tarjeta. Te das de baja con un clic.</p>
+    <p class="nota" id="acceso-diagnostico" hidden><a href="diagnostico.html" style="color:#fff">¿Cuántas ayudas hay ahora mismo para tu negocio? Compruébalo en un minuto →</a></p>
   </div>
 </div>
 
@@ -246,6 +247,18 @@
     aviso.hidden = false;
     document.getElementById("alta").scrollIntoView();
   }
+  // Llegada desde el diagnóstico (?sector=&provincia=&municipio=): el alta ya viene rellenada
+  {
+    const q = new URLSearchParams(location.search);
+    const pon = (id, v) => {
+      const el = document.getElementById(id);
+      if (v && (!el.options || [...el.options].some((o) => o.value === v))) el.value = v;   // en los desplegables, solo si existe
+    };
+    pon("SECTOR", q.get("sector")); pon("PROVINCIA", q.get("provincia")); pon("MUNICIPIO", q.get("municipio"));
+    if (q.get("sector")) sector.dispatchEvent(new Event("change"));
+  }
+  // Diagnóstico (Fase B1): el acceso solo se ve si está publicado (interruptor "diagnostico")
+  fetch("datos/diagnostico/indice.json").then((r) => { if (r.ok) document.getElementById("acceso-diagnostico").hidden = false; }).catch(() => {});
   // Contador y casos reales: si los archivos no están (interruptor apagado), las secciones siguen ocultas
   const SECTORES = {comercio: "comercio", hosteleria: "hostelería", profesionales: "despachos y servicios",
     construccion: "construcción", industria: "industria", transporte: "transporte", agricultura: "agricultura",
