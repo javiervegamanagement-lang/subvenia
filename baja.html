@@ -13,10 +13,10 @@
 <main class="legal">
 <h1>Darse de baja</h1>
 <p id="texto-email">Pulsa el botón y dejarás de recibir el boletín.</p>
-<p><a class="boton" id="boton-baja" href="mailto:plazoabierto.avisos@gmail.com?subject=BAJA">Darme de baja</a></p>
+<p><a class="boton" id="boton-baja" href="mailto:subveniamanage@gmail.com?subject=BAJA">Darme de baja</a></p>
 <p style="color:var(--gris);font-size:15px">Se abrirá tu programa de correo con un email de baja ya escrito: solo tienes que darle a <b>Enviar</b>.
 Lo procesamos automáticamente cada mañana y no volverás a recibir ningún boletín. Si prefieres, escríbenos a
-<a href="mailto:plazoabierto.avisos@gmail.com">plazoabierto.avisos@gmail.com</a> con la palabra BAJA.</p>
+<a href="mailto:subveniamanage@gmail.com">subveniamanage@gmail.com</a> con la palabra BAJA.</p>
 <p>¿Solo querías cambiar de sector o de municipio? <a href="index.html#alta">Apúntate otra vez con los datos nuevos</a>.</p>
 </main>
 
@@ -29,7 +29,7 @@ Lo procesamos automáticamente cada mañana y no volverás a recibir ningún bol
     document.getElementById("texto-email").textContent =
       "Vas a dar de baja " + email + ". Pulsa el botón y dejarás de recibir el boletín.";
     document.getElementById("boton-baja").href =
-      "mailto:plazoabierto.avisos@gmail.com?subject=" + encodeURIComponent("BAJA " + email) +
+      "mailto:subveniamanage@gmail.com?subject=" + encodeURIComponent("BAJA " + email) +
       "&body=" + encodeURIComponent("Quiero darme de baja de Subvenia: " + email);
   }
 </script>
