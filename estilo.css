@@ -99,6 +99,24 @@ section .intro { color: var(--gris); max-width: 680px; margin: 0 0 32px; }
 .consentimiento input { margin-top: 4px; width: 18px; height: 18px; flex: none; }
 .oculto { position: absolute; left: -5000px; }
 
+/* observatorio (Fase B5) */
+.obs h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.2; margin: 6px 0 22px; }
+.obs h2 { margin-top: 36px; }
+.obs-antetitulo { color: var(--verde); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: 13px; margin: 0; }
+.obs-cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.obs-cifras div { background: var(--blanco); border: 1px solid var(--borde); border-radius: 12px; padding: 16px; }
+.obs-cifras b { display: block; color: var(--verde); font-size: 28px; line-height: 1.1; }
+.obs-cifras span { color: var(--gris); font-size: 14px; }
+.obs-barra { position: relative; display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; margin: 6px 0;
+  background: var(--blanco); border: 1px solid var(--borde); border-radius: 8px; overflow: hidden; font-size: 15px; }
+.obs-barra span, .obs-barra b { position: relative; z-index: 1; }
+.obs-barra i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--verde-claro); }
+.obs-lista li { margin: 0 0 10px; }
+.obs-lista li span { color: var(--gris); font-size: 14px; }
+.obs-provincias { columns: 3 220px; padding-left: 18px; }
+.obs-metodo { color: var(--gris); font-size: 14px; }
+@media print { .cabecera, .boton { display: none; } .obs-barra { break-inside: avoid; } }
+
 /* contador (Fase A5) */
 .contador-elige { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 18px; }
 .contador-elige select {
