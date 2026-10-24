@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Darse de baja · Plazo Abierto</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="cabecera"><div class="envoltura"><a class="marca" href="./">Plazo Abierto</a></div></header>
+
+<main class="legal">
+<h1>Darse de baja</h1>
+<p id="texto-email">Pulsa el botón y dejarás de recibir el boletín.</p>
+<p><a class="boton" id="boton-baja" href="mailto:plazoabierto.avisos@gmail.com?subject=BAJA">Darme de baja</a></p>
+<p style="color:var(--gris);font-size:15px">Se abrirá tu programa de correo con un email de baja ya escrito: solo tienes que darle a <b>Enviar</b>.
+Lo procesamos automáticamente cada mañana y no volverás a recibir ningún boletín. Si prefieres, escríbenos a
+<a href="mailto:plazoabierto.avisos@gmail.com">plazoabierto.avisos@gmail.com</a> con la palabra BAJA.</p>
+<p>¿Solo querías cambiar de sector o de municipio? <a href="index.html#alta">Apúntate otra vez con los datos nuevos</a>.</p>
+</main>
+
+<footer class="pie"><div class="envoltura"><p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p></div></footer>
+
+<script>
+  // El enlace de cada boletín trae el email del suscriptor: baja.html?e=nombre@dominio.es
+  const email = new URLSearchParams(location.search).get("e") || "";
+  if (/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+    document.getElementById("texto-email").textContent =
+      "Vas a dar de baja " + email + ". Pulsa el botón y dejarás de recibir el boletín.";
+    document.getElementById("boton-baja").href =
+      "mailto:plazoabierto.avisos@gmail.com?subject=" + encodeURIComponent("BAJA " + email) +
+      "&body=" + encodeURIComponent("Quiero darme de baja de Plazo Abierto: " + email);
+  }
+</script>
+</body>
+</html>
