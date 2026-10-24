@@ -6,34 +6,67 @@
 <meta name="robots" content="noindex">
 <title>Darse de baja · Subvenia</title>
 <link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%230F5132'/></svg>">
 </head>
 <body>
 <header class="cabecera"><div class="envoltura"><a class="marca" href="./">Subvenia</a></div></header>
 
-<main class="legal">
-<h1>Darse de baja</h1>
+<main class="pagina-baja">
 
-<div id="hecha" hidden>
-  <p class="mensaje"><b>Hecho: te has dado de baja.</b> No volverás a recibir ningún boletín de Subvenia. Gracias por haberlo probado.</p>
-  <p>¿Ha sido un error, o solo querías cambiar de sector o de municipio? <a href="index.html#alta">Apúntate otra vez</a>.</p>
-</div>
+  <!-- Paso 1: confirmar la baja -->
+  <section class="tarjeta-baja" id="paso-baja">
+    <div class="franja"></div>
+    <div class="dentro">
+      <div class="icono-baja" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      </div>
+      <h1>¿Quieres dejar de recibir Subvenia?</h1>
+      <p class="sub">Confirma tu email y no volverás a recibir ningún boletín. Es inmediato.</p>
 
-<!-- Formulario de cancelación "Baja Subvenia" de Brevo: el contacto queda dado de baja al momento
-     y Brevo devuelve aquí con ?baja=hecha. El enlace de cada boletín trae el email: baja.html?e=nombre@dominio.es -->
-<form id="formulario-baja" class="formulario" method="POST"
-      action="https://8831c104.sibforms.com/serve/MUIFAJI9LZMFX3Fh1t2L985Z-DpNkLpWVtGqjlpe-fMASkgIKDbOaBUXIxE2IYlcLOgxALzU2YUwgtBpBZnwIdiFWgFmqtZFYD3cC3MWaWfbW6p-O0XwxF-uH7ww42SfmNmpgos7mx2HjV2feKhYL5l8hREMKr6BkvDwYWHqdiTrg9rHo6XmUxVwz_cwZw-U8uCE6WcTntwKf7zr6g==">
-  <div class="campo">
-    <label for="EMAIL">Email con el que recibes el boletín</label>
-    <input type="email" id="EMAIL" name="EMAIL" required autocomplete="email" placeholder="tu@negocio.es">
-  </div>
-  <!-- trampa para robots: una persona no ve este campo -->
-  <div class="oculto" aria-hidden="true"><input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off"></div>
-  <input type="hidden" name="locale" value="es">
-  <input type="hidden" name="html_type" value="simple">
-  <button class="boton" type="submit">Darme de baja</button>
-  <p style="color:var(--gris);font-size:14px;margin:14px 0 0">Al pulsar, dejas de recibir el boletín al momento.
-  Si tienes cualquier problema, escríbenos a <a href="mailto:subveniamanage@gmail.com?subject=BAJA">subveniamanage@gmail.com</a> con la palabra BAJA.</p>
-</form>
+      <!-- Formulario de cancelación "Baja Subvenia" de Brevo: el contacto queda dado de baja al momento
+           y Brevo devuelve aquí con ?baja=hecha. El enlace de cada boletín trae el email: baja.html?e=nombre@dominio.es -->
+      <form id="formulario-baja" method="POST"
+            action="https://8831c104.sibforms.com/serve/MUIFAJI9LZMFX3Fh1t2L985Z-DpNkLpWVtGqjlpe-fMASkgIKDbOaBUXIxE2IYlcLOgxALzU2YUwgtBpBZnwIdiFWgFmqtZFYD3cC3MWaWfbW6p-O0XwxF-uH7ww42SfmNmpgos7mx2HjV2feKhYL5l8hREMKr6BkvDwYWHqdiTrg9rHo6XmUxVwz_cwZw-U8uCE6WcTntwKf7zr6g==">
+        <div class="campo">
+          <label for="EMAIL">Tu email</label>
+          <input type="email" id="EMAIL" name="EMAIL" required autocomplete="email" placeholder="tu@negocio.es">
+        </div>
+        <!-- trampa para robots: una persona no ve este campo -->
+        <div class="oculto" aria-hidden="true"><input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off"></div>
+        <input type="hidden" name="locale" value="es">
+        <input type="hidden" name="html_type" value="simple">
+        <button class="boton boton-baja" type="submit">Darme de baja</button>
+      </form>
+      <a class="boton-quedarme" href="./">No, quiero seguir recibiéndolo</a>
+
+      <div class="antes-de-irte">
+        <b>Antes de irte, por si te sirve:</b>
+        <ul>
+          <li>¿Te llegan ayudas que no son para tu negocio? <a href="index.html#alta">Apúntate de nuevo con tu sector y municipio correctos</a>.</li>
+          <li>Solo escribimos cuando hay ayudas nuevas para ti: como mucho, un email a la semana.</li>
+        </ul>
+      </div>
+
+      <p class="nota-baja">¿Algún problema? Escríbenos a <a href="mailto:subveniamanage@gmail.com?subject=BAJA">subveniamanage@gmail.com</a> con la palabra BAJA.</p>
+    </div>
+  </section>
+
+  <!-- Paso 2: baja hecha -->
+  <section class="tarjeta-baja" id="paso-hecha" hidden>
+    <div class="franja"></div>
+    <div class="dentro">
+      <div class="icono-baja ok" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <h1>Listo, te has dado de baja</h1>
+      <p class="sub">No volverás a recibir ningún boletín de Subvenia.<br>Gracias por haberlo probado.</p>
+      <a class="boton" href="./" style="display:block;text-align:center">Volver a la web</a>
+      <p class="nota-baja">¿Ha sido un error? <a href="index.html#alta">Apúntate otra vez</a> en un minuto.</p>
+    </div>
+  </section>
+
 </main>
 
 <footer class="pie"><div class="envoltura"><p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p></div></footer>
@@ -41,8 +74,8 @@
 <script>
   const datos = new URLSearchParams(location.search);
   if (datos.get("baja") === "hecha") {
-    document.getElementById("hecha").hidden = false;
-    document.getElementById("formulario-baja").hidden = true;
+    document.getElementById("paso-hecha").hidden = false;
+    document.getElementById("paso-baja").hidden = true;
   }
   const email = datos.get("e") || "";
   if (/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
