@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiero que me la tramiten · Subvenia</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%230F5132'/></svg>">
+</head>
+<body>
+<header class="cabecera"><div class="envoltura"><a class="marca" href="./">Subvenia</a></div></header>
+
+<section>
+  <div class="envoltura">
+    <h2>¿Quieres que te la tramite una gestoría?</h2>
+    <p class="intro" id="t-ayuda">Déjanos tus datos y se los pasamos a una gestoría de tu provincia, que te escribirá para contarte cómo
+    tramitar la ayuda y sus condiciones. Subvenia no cobra nada por esto.</p>
+
+    <p class="mensaje" id="t-pronto" hidden>Este servicio se abre muy pronto. Mientras tanto, puedes escribirnos a
+      <a href="mailto:subveniamanage@gmail.com">subveniamanage@gmail.com</a>.</p>
+
+    <form class="formulario" id="t-form" hidden novalidate>
+      <div class="campo"><label for="t-nombre">Tu nombre</label><input type="text" id="t-nombre" required maxlength="80" autocomplete="name"></div>
+      <div class="campo"><label for="t-email">Tu email</label><input type="email" id="t-email" required maxlength="120" autocomplete="email"></div>
+      <div class="campo"><label for="t-telefono">Teléfono (si prefieres que te llamen)</label><input type="text" id="t-telefono" maxlength="20" autocomplete="tel"></div>
+      <div class="campo"><label for="t-provincia">Provincia</label><select id="t-provincia" required><option value="">Elige tu provincia…</option></select></div>
+      <div class="campo"><label for="t-municipio">Municipio de tu negocio</label><input type="text" id="t-municipio" required maxlength="80" autocomplete="address-level2"></div>
+      <div class="campo"><label for="t-mensaje">¿Algo que debamos saber? (opcional)</label><textarea id="t-mensaje" maxlength="1500" rows="3" style="width:100%;padding:12px;border:1px solid #b9c2bd;border-radius:10px;font:inherit"></textarea></div>
+      <!-- trampa para robots: una persona no ve este campo -->
+      <div class="oculto" aria-hidden="true"><input type="text" id="t-web" tabindex="-1" autocomplete="off"></div>
+      <label class="consentimiento"><input type="checkbox" id="t-cesion">
+        <span>Acepto que Subvenia ceda mi nombre, email, teléfono, municipio y mensaje a <b>una gestoría de mi provincia</b>, solo
+        para que me ayude a tramitar esta ayuda. Me diréis cuál es.</span></label>
+      <label class="consentimiento"><input type="checkbox" id="t-privacidad">
+        <span>He leído la <a href="privacidad.html">política de privacidad</a>.</span></label>
+      <div id="t-turnstile" style="margin:12px 0"></div>
+      <button class="boton" type="submit">Enviar a una gestoría</button>
+      <p class="mensaje" id="t-aviso" hidden></p>
+    </form>
+  </div>
+</section>
+
+<footer class="pie"><div class="envoltura">
+  <p><b>Subvenia</b> · Fuente de los datos: BDNS (Base de Datos Nacional de Subvenciones).</p>
+  <p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p>
+</div></footer>
+
+<script>
+  const PROVINCIAS = ["A Coruña","Álava","Albacete","Alicante","Almería","Asturias","Ávila","Badajoz","Barcelona","Bizkaia","Burgos","Cáceres","Cádiz","Cantabria","Castellón","Ceuta","Ciudad Real","Córdoba","Cuenca","El Hierro","Fuerteventura","Gipuzkoa","Girona","Gran Canaria","Granada","Guadalajara","Huelva","Huesca","Ibiza y Formentera","Jaén","La Gomera","La Palma","La Rioja","Lanzarote","León","Lleida","Lugo","Madrid","Málaga","Mallorca","Melilla","Menorca","Murcia","Navarra","Ourense","Palencia","Pontevedra","Salamanca","Segovia","Sevilla","Soria","Tarragona","Tenerife","Teruel","Toledo","Valencia","Valladolid","Zamora","Zaragoza"];
+  const $ = (id) => document.getElementById(id);
+  const q = new URLSearchParams(location.search);
+  const codigo = (q.get("codigo") || "").replace(/\D/g, "").slice(0, 9);
+  const titulo = (q.get("titulo") || "").slice(0, 200);
+  PROVINCIAS.forEach((p) => $("t-provincia").add(new Option(p, p)));
+  if (q.get("provincia") && PROVINCIAS.includes(q.get("provincia"))) $("t-provincia").value = q.get("provincia");
+  if (titulo) { const b = document.createElement("b"); b.textContent = titulo; $("t-ayuda").prepend("Ayuda: ", b, ". "); }
+  let servicios = null;
+
+  fetch("datos/servicios.json").then((r) => (r.ok ? r.json() : null)).catch(() => null).then((s) => {
+    if (!s || !s.tramitacion || !s.api || !codigo) { $("t-pronto").hidden = false; return; }
+    servicios = s;
+    if (s.turnstile) {   // anti-robots de Cloudflare: solo se carga si el servicio está abierto
+      const w = document.createElement("div"); w.className = "cf-turnstile"; w.dataset.sitekey = s.turnstile; $("t-turnstile").append(w);
+      const sc = document.createElement("script"); sc.src = "https://challenges.cloudflare.com/turnstile/v0/api.js"; sc.async = true; document.head.append(sc);
+    }
+    $("t-form").hidden = false;
+  });
+
+  const aviso = (texto) => { $("t-aviso").textContent = texto; $("t-aviso").hidden = false; };
+  $("t-form").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    if (!$("t-cesion").checked) return aviso("Para enviarlo a una gestoría tienes que aceptar que le pasemos tus datos.");
+    if (!$("t-privacidad").checked) return aviso("Tienes que aceptar la política de privacidad.");
+    const turnstile = (document.querySelector("[name='cf-turnstile-response']") || {}).value || "";
+    if (servicios.turnstile && !turnstile) return aviso("Un momento: estamos comprobando que no eres un robot. Vuelve a pulsar en unos segundos.");
+    const cuerpo = { nombre: $("t-nombre").value, email: $("t-email").value, telefono: $("t-telefono").value,
+      provincia: $("t-provincia").value, municipio: $("t-municipio").value, mensaje: $("t-mensaje").value, web: $("t-web").value,
+      codigo, titulo, acepto_cesion: true, acepto_privacidad: true, turnstile };
+    let r;
+    try {
+      r = await fetch(servicios.api + "/tramitar", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(cuerpo) });
+    } catch { return aviso("No hemos podido enviarlo. Inténtalo de nuevo en un momento."); }
+    const d = await r.json().catch(() => ({}));
+    if (r.ok) {
+      $("t-form").querySelectorAll("input, textarea, select, button").forEach((e) => (e.disabled = true));
+      return aviso(d.destino === "gestoria" ? "¡Hecho! Una gestoría de tu provincia te escribirá pronto. Te hemos mandado una copia por email."
+                                            : "¡Hecho! Te escribiremos pronto. Te hemos mandado una copia por email.");
+    }
+    const textos = { datos: "Revisa los datos: " + (d.campos || []).join(", ") + ".", robot: "No hemos podido comprobar que no eres un robot. Recarga la página e inténtalo de nuevo.",
+                     demasiadas: "Has hecho demasiadas peticiones seguidas. Inténtalo dentro de un rato." };
+    aviso(textos[d.error] || "No hemos podido enviarlo. Inténtalo de nuevo en un momento.");
+  });
+</script>
+</body>
+</html>

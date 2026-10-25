@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi panel · Subvenia</title>
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<link rel="stylesheet" href="estilo.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%230F5132'/></svg>">
+<style>
+  .p-ayuda { background: var(--blanco); border: 1px solid var(--borde); border-radius: 12px; padding: 16px; margin: 0 0 14px; }
+  .p-ayuda h3 { margin: 0 0 4px; font-size: 18px; }
+  .p-ayuda p { margin: 4px 0; font-size: 15px; }
+  .p-marca { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; font-size: 14px; }
+  .p-marca select, .p-marca input[type=date] { padding: 6px 8px; border: 1px solid #b9c2bd; border-radius: 8px; font: inherit; }
+  .p-cabecera { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<header class="cabecera"><div class="envoltura"><a class="marca" href="./">Subvenia</a>
+  <nav><a href="#" id="p-salir" hidden>Salir</a></nav></div></header>
+
+<section>
+  <div class="envoltura">
+    <h2>Mi panel</h2>
+    <p class="mensaje" id="p-pronto" hidden>Mi panel se abre muy pronto. Mientras tanto, te seguimos mandando tus ayudas cada lunes.</p>
+
+    <!-- 1. Pedir el enlace mágico -->
+    <form class="formulario" id="p-entrar" hidden novalidate>
+      <p>Escribe el email con el que recibes el boletín y te mandamos un enlace para entrar. Sin contraseñas.</p>
+      <div class="campo"><label for="p-email">Tu email</label><input type="email" id="p-email" required maxlength="120" autocomplete="email"></div>
+      <div class="oculto" aria-hidden="true"><input type="text" id="p-web" tabindex="-1" autocomplete="off"></div>
+      <div id="p-turnstile" style="margin:12px 0"></div>
+      <button class="boton" type="submit">Mandarme el enlace</button>
+    </form>
+    <p class="mensaje" id="p-aviso" hidden></p>
+
+    <!-- 2. El panel -->
+    <div id="p-dentro" hidden>
+      <div class="p-cabecera"><p id="p-quien" class="intro" style="margin:0"></p>
+        <a href="#p-perfil" class="boton pequeno">Cambiar mi negocio o municipio</a></div>
+      <h3>Tus ayudas abiertas</h3>
+      <p class="nota">Marca las que te interesan, las que has pedido y las que te han concedido: te avisaremos para justificarlas a tiempo.</p>
+      <div id="p-ayudas"></div>
+      <div id="p-otras-bloque" hidden><h3>Otras ayudas que tenías marcadas</h3><div id="p-otras"></div></div>
+      <form class="formulario" id="p-perfil" novalidate style="margin-top:32px">
+        <h3 style="margin-top:0">Tu negocio</h3>
+        <div class="campo"><label for="p-sector">Tu negocio</label><select id="p-sector"></select></div>
+        <div class="campo"><label for="p-provincia">Provincia</label><select id="p-provincia"></select></div>
+        <div class="campo"><label for="p-municipio">Municipio</label><input type="text" id="p-municipio" maxlength="80"></div>
+        <button class="boton" type="submit">Guardar</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="pie"><div class="envoltura">
+  <p><b>Subvenia</b> · Fuente de los datos: BDNS (Base de Datos Nacional de Subvenciones). Información orientativa: mandan las bases oficiales.</p>
+  <p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a></p>
+</div></footer>
+
+<script>
+  const SECTORES = {comercio: "Comercio o tienda", bares_restaurantes: "Bar, restaurante o cafetería", peluqueria_estetica: "Peluquería, barbería o estética",
+    alimentacion_artesana: "Panadería, obrador o tienda de alimentación", talleres_vehiculos: "Taller de coches o motos",
+    transporte_autonomo: "Taxi, transportista o mensajería", alojamiento: "Hotel, casa rural o alojamiento", profesionales: "Despacho o servicios a empresas",
+    construccion: "Construcción y reformas", industria: "Industria o fábrica", transporte: "Empresa de transporte o logística",
+    agricultura: "Agricultura, ganadería o pesca", hosteleria: "Hostelería"};
+  const PROVINCIAS = ["A Coruña","Álava","Albacete","Alicante","Almería","Asturias","Ávila","Badajoz","Barcelona","Bizkaia","Burgos","Cáceres","Cádiz","Cantabria","Castellón","Ceuta","Ciudad Real","Córdoba","Cuenca","El Hierro","Fuerteventura","Gipuzkoa","Girona","Gran Canaria","Granada","Guadalajara","Huelva","Huesca","Ibiza y Formentera","Jaén","La Gomera","La Palma","La Rioja","Lanzarote","León","Lleida","Lugo","Madrid","Málaga","Mallorca","Melilla","Menorca","Murcia","Navarra","Ourense","Palencia","Pontevedra","Salamanca","Segovia","Sevilla","Soria","Tarragona","Tenerife","Teruel","Toledo","Valencia","Valladolid","Zamora","Zaragoza"];
+  const ESTADOS = {"": "Sin marcar", interesa: "Me interesa", pedida: "La he pedido", concedida: "Me la han concedido"};
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, texto, props = {}) => Object.assign(document.createElement(tag), props, texto === undefined ? {} : { textContent: texto });
+  const normaliza = (t) => {   // igual que el motor: "PALMAS, LAS" -> "LAS PALMAS"
+    t = (t || "").toUpperCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/’/g, "'").trim();
+    const i = t.lastIndexOf(",");
+    if (i >= 0) { const n = t.slice(0, i).trim(), a = t.slice(i + 1).trim(); if (a.length <= 4) t = a.endsWith("'") ? a + n : a + " " + n; }
+    return t;
+  };
+  const guarda = { leer: () => { try { return localStorage.getItem("subvenia-sesion"); } catch { return null; } },
+                   poner: (v) => { try { v ? localStorage.setItem("subvenia-sesion", v) : localStorage.removeItem("subvenia-sesion"); } catch {} } };
+  const aviso = (t) => { $("p-aviso").textContent = t; $("p-aviso").hidden = !t; };
+  const json = (ruta) => fetch(ruta).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  let S = null;   // servicios.json
+
+  async function api(metodo, ruta, cuerpo) {
+    const sesion = guarda.leer();
+    const r = await fetch(S.api + ruta, { method: metodo, body: cuerpo ? JSON.stringify(cuerpo) : undefined,
+      headers: { "content-type": "application/json", ...(sesion ? { authorization: "Bearer " + sesion } : {}) } });
+    const d = await r.json().catch(() => ({}));
+    if (r.status === 401 && ruta !== "/panel/sesion") { guarda.poner(null); location.reload(); }
+    return { ok: r.ok, d };
+  }
+
+  function tarjeta(f, marca) {
+    const caja = el("div", undefined, { className: "p-ayuda" });
+    caja.append(el("h3", f.titulo), el("p", f.ambito + (f.organo ? " · " + f.organo : "")));
+    if (f.cuanto) caja.append(el("p", "💶 " + f.cuanto));
+    caja.append(el("p", "📅 " + f.plazo));
+    const enlaces = el("p");
+    enlaces.append(el("a", "Ficha oficial (BDNS)", { href: f.ficha, target: "_blank", rel: "noopener" }));
+    if (S.tramitacion) {
+      enlaces.append(" · ", el("a", "Quiero que me la tramiten", { href: "tramitar.html?" + new URLSearchParams({ codigo: f.codigo, titulo: f.titulo }) }));
+    }
+    caja.append(enlaces);
+    const fila = el("div", undefined, { className: "p-marca" });
+    const sel = el("select");
+    Object.entries(ESTADOS).forEach(([v, t]) => sel.add(new Option(t, v)));
+    sel.value = (marca && marca.estado) || "";
+    const fecha = el("input", undefined, { type: "date", value: (marca && marca.concedida) || "", title: "Fecha de concesión" });
+    const permiso = el("label");
+    const casilla = el("input", undefined, { type: "checkbox", checked: !!(marca && marca.permiso_caso) });
+    permiso.append(casilla, " Podéis contactarme para contar mi caso");
+    const verConcedida = () => { fecha.hidden = permiso.hidden = sel.value !== "concedida"; };
+    verConcedida();
+    const guardar = async () => {
+      verConcedida();
+      const { ok } = await api("POST", "/panel/marca", { codigo: f.codigo, estado: sel.value || "ninguna",
+                                                         concedida: fecha.value || undefined, permiso_caso: casilla.checked });
+      aviso(ok ? "" : "No se ha podido guardar la marca. Inténtalo de nuevo.");
+    };
+    sel.onchange = guardar; fecha.onchange = guardar; casilla.onchange = guardar;
+    fila.append("Mi marca: ", sel, fecha, permiso);
+    caja.append(fila);
+    return caja;
+  }
+
+  async function panel() {
+    const { ok, d } = await api("GET", "/panel/datos");
+    if (!ok) return;
+    $("p-entrar").hidden = true; $("p-dentro").hidden = false; $("p-salir").hidden = false;
+    $("p-quien").textContent = `${d.email} · ${SECTORES[d.sector] || d.sector} en ${d.municipio} (${d.provincia})`;
+    Object.entries(SECTORES).forEach(([v, t]) => $("p-sector").add(new Option(t, v)));
+    PROVINCIAS.forEach((p) => $("p-provincia").add(new Option(p, p)));
+    $("p-sector").value = d.sector; $("p-provincia").value = d.provincia; $("p-municipio").value = d.municipio;
+    const marcas = Object.fromEntries((d.marcas || []).map((m) => [m.codigo, m]));
+    const base = "datos/diagnostico/";
+    const indice = await json(base + "indice.json");
+    const [prov, munis, fichas] = await Promise.all([indice && indice.provincias[d.provincia] ? json(base + indice.provincias[d.provincia] + ".json") : null,
+                                                     json(base + "municipios.json"), json(base + "fichas.json")]);
+    const codigos = new Set([...((((prov || {}).sectores || {})[d.sector] || {}).codigos || []),
+                             ...(((((munis || {})[normaliza(d.municipio)] || {}).sectores || {})[d.sector] || {}).codigos || [])]);
+    const lista = [...codigos].map((c) => (fichas || {})[c]).filter(Boolean)
+      .sort((a, b) => String(a.fin || "9999").localeCompare(String(b.fin || "9999")));
+    $("p-ayudas").textContent = "";
+    if (!lista.length) $("p-ayudas").append(el("p", "Ahora mismo no hay ninguna abierta para tu negocio. Te avisamos cada lunes en cuanto salga alguna."));
+    lista.forEach((f) => $("p-ayudas").append(tarjeta(f, marcas[f.codigo])));
+    const otras = Object.keys(marcas).filter((c) => !codigos.has(c));
+    $("p-otras-bloque").hidden = !otras.length;
+    otras.forEach((c) => $("p-otras").append(tarjeta((fichas || {})[c] || { codigo: c, titulo: "Ayuda " + c, ambito: "BDNS", organo: "",
+      plazo: "Ya cerrada o fuera de tu zona", ficha: "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/" + c }, marcas[c])));
+  }
+
+  $("p-perfil").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const { ok } = await api("POST", "/panel/perfil", { sector: $("p-sector").value, provincia: $("p-provincia").value, municipio: $("p-municipio").value });
+    aviso(ok ? "Guardado. Desde el próximo lunes recibirás las ayudas de tu nuevo negocio o municipio." : "Revisa los datos e inténtalo de nuevo.");
+    if (ok) setTimeout(() => location.reload(), 1500);
+  });
+  $("p-salir").addEventListener("click", (ev) => { ev.preventDefault(); guarda.poner(null); location.href = "./"; });
+  $("p-entrar").addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const turnstile = (document.querySelector("[name='cf-turnstile-response']") || {}).value || "";
+    if (S.turnstile && !turnstile) return aviso("Un momento: estamos comprobando que no eres un robot. Vuelve a pulsar en unos segundos.");
+    const { ok, d } = await api("POST", "/panel/enlace", { email: $("p-email").value, web: $("p-web").value, turnstile });
+    aviso(ok ? "Si ese email recibe nuestro boletín, te acabamos de mandar el enlace. Mira tu correo (y la carpeta de spam)."
+             : d.error === "demasiadas" ? "Has pedido demasiados enlaces. Espera un rato." : "No hemos podido mandarlo. Revisa el email e inténtalo de nuevo.");
+  });
+
+  json("datos/servicios.json").then(async (s) => {
+    if (!s || !s.panel || !s.api) { $("p-pronto").hidden = false; return; }
+    S = s;
+    const t = new URLSearchParams(location.hash.slice(1)).get("t");
+    if (t) {   // llega desde el enlace mágico: se cambia por una sesión y se borra de la barra de direcciones
+      history.replaceState(null, "", location.pathname);
+      const { ok, d } = await api("POST", "/panel/sesion", { t });
+      if (ok) guarda.poner(d.sesion);
+      else aviso("Ese enlace ya se ha usado o ha caducado. Pide otro.");
+    }
+    if (guarda.leer()) return panel();
+    if (s.turnstile) {
+      const w = el("div", undefined, { className: "cf-turnstile" }); w.dataset.sitekey = s.turnstile; $("p-turnstile").append(w);
+      document.head.append(el("script", undefined, { src: "https://challenges.cloudflare.com/turnstile/v0/api.js", async: true }));
+    }
+    $("p-entrar").hidden = false;
+  });
+</script>
+</body>
+</html>
