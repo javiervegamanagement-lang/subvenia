@@ -1,0 +1,3997 @@
+{
+ "trimestre": "2026-T3",
+ "desde": "2026-07-01",
+ "hasta": "2026-09-30",
+ "generado": "2026-10-25",
+ "provincias": {
+  "A Coruña": {
+   "provincia": "A Coruña",
+   "convocatorias": 52,
+   "estatales": 18,
+   "presupuesto": 141500209,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 23,
+    "Estado": 18,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 3,
+   "por_sector": {
+    "profesionales": 7,
+    "agricultura": 5,
+    "comercio": 4,
+    "hosteleria": 4,
+    "industria": 4,
+    "bares_restaurantes": 3,
+    "alojamiento": 3,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "transporte": 2,
+    "transporte_autonomo": 2,
+    "construccion": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Arteixo",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Rianxo",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Santiago de Compostela",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "As Pontes de García Rodríguez",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "A Coruña",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "bases que regirán el procedimiento de concesión de ayudas a entidades privadas para el fomento de la gratuidad de la atención educativa de los niños y niñas de la Comunidad Autónoma de Galicia en escuelas infantiles 0-3 para el curso 2026/27",
+     "organo": "GALICIA / CONSELLERÍA DE POLÍTICA SOCIAL E IGUALDAD",
+     "presupuesto": 46948893,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921196"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, línea 1",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919838"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 2",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919839"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 3",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919840"
+    },
+    {
+     "titulo": "ORDEN del 9 de julio de 2026 por la que se establecen las bases reguladoras para la concesión de subvenciones para la puesta en práctica de programas integrados de empleo de Galicia, y se convocan para el año 2026 (código de procedimiento TR332A)",
+     "organo": "GALICIA / CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "presupuesto": 11000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920668"
+    }
+   ]
+  },
+  "Lugo": {
+   "provincia": "Lugo",
+   "convocatorias": 43,
+   "estatales": 17,
+   "presupuesto": 138709089,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 23,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 5,
+    "industria": 3,
+    "profesionales": 3,
+    "hosteleria": 2,
+    "comercio": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Monforte de Lemos",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "bases que regirán el procedimiento de concesión de ayudas a entidades privadas para el fomento de la gratuidad de la atención educativa de los niños y niñas de la Comunidad Autónoma de Galicia en escuelas infantiles 0-3 para el curso 2026/27",
+     "organo": "GALICIA / CONSELLERÍA DE POLÍTICA SOCIAL E IGUALDAD",
+     "presupuesto": 46948893,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921196"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, línea 1",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919838"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 2",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919839"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 3",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919840"
+    },
+    {
+     "titulo": "ORDEN del 9 de julio de 2026 por la que se establecen las bases reguladoras para la concesión de subvenciones para la puesta en práctica de programas integrados de empleo de Galicia, y se convocan para el año 2026 (código de procedimiento TR332A)",
+     "organo": "GALICIA / CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "presupuesto": 11000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920668"
+    }
+   ]
+  },
+  "Ourense": {
+   "provincia": "Ourense",
+   "convocatorias": 43,
+   "estatales": 17,
+   "presupuesto": 138829089,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 23,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 5,
+    "industria": 3,
+    "profesionales": 3,
+    "hosteleria": 2,
+    "comercio": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "bases que regirán el procedimiento de concesión de ayudas a entidades privadas para el fomento de la gratuidad de la atención educativa de los niños y niñas de la Comunidad Autónoma de Galicia en escuelas infantiles 0-3 para el curso 2026/27",
+     "organo": "GALICIA / CONSELLERÍA DE POLÍTICA SOCIAL E IGUALDAD",
+     "presupuesto": 46948893,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921196"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, línea 1",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919838"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 2",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919839"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 3",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919840"
+    },
+    {
+     "titulo": "ORDEN del 9 de julio de 2026 por la que se establecen las bases reguladoras para la concesión de subvenciones para la puesta en práctica de programas integrados de empleo de Galicia, y se convocan para el año 2026 (código de procedimiento TR332A)",
+     "organo": "GALICIA / CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "presupuesto": 11000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920668"
+    }
+   ]
+  },
+  "Pontevedra": {
+   "provincia": "Pontevedra",
+   "convocatorias": 44,
+   "estatales": 17,
+   "presupuesto": 139239089,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 2,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 23,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 5,
+    "industria": 3,
+    "profesionales": 3,
+    "hosteleria": 2,
+    "comercio": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Vilagarcía de Arousa",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Vigo",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "bases que regirán el procedimiento de concesión de ayudas a entidades privadas para el fomento de la gratuidad de la atención educativa de los niños y niñas de la Comunidad Autónoma de Galicia en escuelas infantiles 0-3 para el curso 2026/27",
+     "organo": "GALICIA / CONSELLERÍA DE POLÍTICA SOCIAL E IGUALDAD",
+     "presupuesto": 46948893,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921196"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, línea 1",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919838"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 2",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919839"
+    },
+    {
+     "titulo": "Bases reguladoras automoción 2026, cofinanciadas FEDER, concurrencia no competitiva, Línea 3",
+     "organo": "GALICIA / INSTITUTO GALLEGO DE PROMOCIÓN ECONÓMICA (IGAPE)",
+     "presupuesto": 15000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919840"
+    },
+    {
+     "titulo": "ORDEN del 9 de julio de 2026 por la que se establecen las bases reguladoras para la concesión de subvenciones para la puesta en práctica de programas integrados de empleo de Galicia, y se convocan para el año 2026 (código de procedimiento TR332A)",
+     "organo": "GALICIA / CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "presupuesto": 11000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920668"
+    }
+   ]
+  },
+  "Asturias": {
+   "provincia": "Asturias",
+   "convocatorias": 50,
+   "estatales": 17,
+   "presupuesto": 85538115,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 9,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 18,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 4,
+    "peluqueria_estetica": 4,
+    "transporte": 3,
+    "industria": 3,
+    "talleres_vehiculos": 3,
+    "transporte_autonomo": 3,
+    "comercio": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Parres",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Avilés",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Oviedo",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Siero",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Llanera",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA CONCESIÓN SUBVENCIONES CEE COSTE SALARIAL 2026-2027 (JUL26-JUN27)",
+     "organo": "PRINCIPADO DE ASTURIAS / SERVICIO PÚBLICO DE EMPLEO DEL PRINCIPADO DE ASTURIAS",
+     "presupuesto": 19453500,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923956"
+    },
+    {
+     "titulo": "CONVOCATORIA 2027-2028 ANTICIPADA DE GASTO PROGRAMAS DE FORMACIÓN CONDUCENTES DESEMPLEADOS Y OCUPADOS",
+     "organo": "PRINCIPADO DE ASTURIAS / SERVICIO PÚBLICO DE EMPLEO DEL PRINCIPADO DE ASTURIAS",
+     "presupuesto": 19050000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928853"
+    },
+    {
+     "titulo": "CONVOCATORIA 2026-2027 PROGRAMAS DE FORMACIÓN CONDUCENTES DESEMPLEADOS Y OCUPADOS",
+     "organo": "PRINCIPADO DE ASTURIAS / SERVICIO PÚBLICO DE EMPLEO DEL PRINCIPADO DE ASTURIAS",
+     "presupuesto": 18683730,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922118"
+    },
+    {
+     "titulo": "PROGRAMAS DE FORMACIÓN ESPECIALIDADES SEPE DIRIGIDOS PRIORITARIAMENTE A PERSONAS TRABAJADORAS DESEMPLEADAS Y OCUPADAS",
+     "organo": "PRINCIPADO DE ASTURIAS / SERVICIO PÚBLICO DE EMPLEO DEL PRINCIPADO DE ASTURIAS",
+     "presupuesto": 8227313,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923062"
+    },
+    {
+     "titulo": "Resolución de 22 de julio de 2026 de la Consejería de Medio Rural y Política Agraria por la que se aprueba convocatoria plurianual de subvenciones a inversiones en productos agroalimentarios e inversiones en tecnologías forestales",
+     "organo": "PRINCIPADO DE ASTURIAS / CONSEJERÍA DE MEDIO RURAL Y POLÍTICA AGRARIA",
+     "presupuesto": 6236000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919835"
+    }
+   ]
+  },
+  "Cantabria": {
+   "provincia": "Cantabria",
+   "convocatorias": 42,
+   "estatales": 17,
+   "presupuesto": 29952300,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 19,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 15,
+    "industria": 6,
+    "profesionales": 6,
+    "comercio": 3,
+    "transporte": 2,
+    "construccion": 2,
+    "transporte_autonomo": 2,
+    "hosteleria": 1,
+    "bares_restaurantes": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Piélagos",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Los Corrales de Buelna",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Santa Cruz de Bezana",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Argoños",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Orden IND/48/2026, de 21 de septiembre, de convocatoria 2026 y normas de procedimiento de subvenciones para acciones formativas, dentro de la iniciativa de oferta formativa del Sistema de FP en el ámbito laboral asociada al CNCP desempleadas",
+     "organo": "CANTABRIA / SERVICIO CÁNTABRO DE EMPLEO",
+     "presupuesto": 15850000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930247"
+    },
+    {
+     "titulo": "CONVOCATORIA PARA 2027 LAS AYUDAS A LA TRANSFORMACIÓN Y COMERCIALIZACIÓN DE PRODUCTOS DE LA PESCA Y DE LA ACUICULTURA COFINANCIADAS POR EL FONDO EUROPEO MARÍTIMO, DE PESCA Y DE ACUICULTURA (FEMPA).",
+     "organo": "CANTABRIA / CONSEJERÍA DE DESARROLLO RURAL, GANADERÍA, PESCA Y ALIMENTACIÓN",
+     "presupuesto": 4500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920301"
+    },
+    {
+     "titulo": "Orden IND/44/2026, de 1 de septiembr, de convocatoria en 2026 y normas de procedimiento para el otorgamiento de subvenciones destinadas al desarrollo de programas de formación, dentro de la iniciativa de oferta formativa del SCE para personas ocupadas",
+     "organo": "CANTABRIA / SERVICIO CÁNTABRO DE EMPLEO",
+     "presupuesto": 3055000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926224"
+    },
+    {
+     "titulo": "Orden PRE/141/2026 de 28 de septiembre, por la que se convoca en 2026 la subvención, de concurrencia competitiva, destinada instalación, puesta en funcionamiento, explotación y mantenimiento de cajeros automáticos en municipios en riesgo despoblamiento.",
+     "organo": "CANTABRIA / CONSEJERÍA PRESIDENCIA, JUSTICIA, SEGURIDAD Y SIMPLIFICACIÓN ADMINISTRATIVA",
+     "presupuesto": 2279500,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932236"
+    },
+    {
+     "titulo": "CONVOCATORIA PARA 2027 LAS AYUDAS A LAS INVERSIONES A BORDO DE LOS BUQUES PESQUEROS COFINANCIADAS POR EL FONDO EUROPEO MARÍTIMO, DE PESCA Y DE ACUICULTURA (FEMPA 2021-2027).",
+     "organo": "CANTABRIA / CONSEJERÍA DE DESARROLLO RURAL, GANADERÍA, PESCA Y ALIMENTACIÓN",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923812"
+    }
+   ]
+  },
+  "Álava": {
+   "provincia": "Álava",
+   "convocatorias": 52,
+   "estatales": 17,
+   "presupuesto": 26749433,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 9,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 24,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 13,
+    "industria": 6,
+    "profesionales": 6,
+    "bares_restaurantes": 5,
+    "comercio": 4,
+    "construccion": 4,
+    "hosteleria": 3,
+    "alojamiento": 3,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "transporte": 2,
+    "transporte_autonomo": 2
+   },
+   "municipios": [
+    {
+     "nombre": "Laudio/Llodio",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Campezo/Kanpezu",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Vitoria-Gasteiz",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Agurain/Salvatierra",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Zabaldu +",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 13600000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917462"
+    },
+    {
+     "titulo": "Ayudas al fomento de la contratación laboral en Vitoria-Gasteiz 2026",
+     "organo": "VITORIA-GASTEIZ / AYUNTAMIENTO DE VITORIA-GASTEIZ",
+     "presupuesto": 2678663,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/924199"
+    },
+    {
+     "titulo": "AYUDA EXTRAORD. PERDIDAS ECONOMICAS POR GUERRA ORIENTE MEDIO",
+     "organo": "PAÍS VASCO / DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928810"
+    },
+    {
+     "titulo": "Lortu Berria",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 1200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919241"
+    },
+    {
+     "titulo": "CONVOCATORIA AYUDAS A LA CONCILIACIÓN DE LA VIDA FAMILIAR Y LABORAL 2026",
+     "organo": "PAÍS VASCO / LANBIDE-SERVICIO VASCO DE EMPLEO",
+     "presupuesto": 1055000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923970"
+    }
+   ]
+  },
+  "Gipuzkoa": {
+   "provincia": "Gipuzkoa",
+   "convocatorias": 58,
+   "estatales": 17,
+   "presupuesto": 25066343,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 15,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 24,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 3,
+   "por_sector": {
+    "agricultura": 10,
+    "peluqueria_estetica": 7,
+    "talleres_vehiculos": 7,
+    "comercio": 6,
+    "industria": 6,
+    "profesionales": 5,
+    "transporte": 3,
+    "bares_restaurantes": 3,
+    "transporte_autonomo": 3,
+    "hosteleria": 2,
+    "alojamiento": 2,
+    "construccion": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Bergara",
+     "convocatorias": 4
+    },
+    {
+     "nombre": "Eibar",
+     "convocatorias": 4
+    },
+    {
+     "nombre": "Donostia/San Sebastián",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Astigarraga",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Errenteria",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Zabaldu +",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 13600000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917462"
+    },
+    {
+     "titulo": "AYUDA EXTRAORD. PERDIDAS ECONOMICAS POR GUERRA ORIENTE MEDIO",
+     "organo": "PAÍS VASCO / DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928810"
+    },
+    {
+     "titulo": "Lortu Berria",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 1200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919241"
+    },
+    {
+     "titulo": "CONVOCATORIA AYUDAS A LA CONCILIACIÓN DE LA VIDA FAMILIAR Y LABORAL 2026",
+     "organo": "PAÍS VASCO / LANBIDE-SERVICIO VASCO DE EMPLEO",
+     "presupuesto": 1055000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923970"
+    },
+    {
+     "titulo": "Ayuda Kooperatu 2026",
+     "organo": "PAÍS VASCO / DEPARTAMENTO DE ALIMENTACIÓN, DESARROLLO RURAL, AGRICULTURA Y PESCA",
+     "presupuesto": 1000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/924207"
+    }
+   ]
+  },
+  "Bizkaia": {
+   "provincia": "Bizkaia",
+   "convocatorias": 58,
+   "estatales": 17,
+   "presupuesto": 26968500,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 9,
+    "Diputación / Cabildo / Consell": 7,
+    "Comunidad autónoma": 24,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 12,
+    "bares_restaurantes": 8,
+    "hosteleria": 7,
+    "comercio": 6,
+    "industria": 5,
+    "profesionales": 5,
+    "alojamiento": 5,
+    "peluqueria_estetica": 4,
+    "talleres_vehiculos": 4,
+    "transporte": 3,
+    "transporte_autonomo": 3
+   },
+   "municipios": [
+    {
+     "nombre": "Etxebarri",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Sopela",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Muskiz",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Balmaseda",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Bermeo",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Zabaldu +",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 13600000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917462"
+    },
+    {
+     "titulo": "DECRETO FORAL de la Diputación Foral de Bizkaia, por el que se aprueban las bases reguladoras y la convocatoria de subvenciones destinadas a la realización de proyectos culturales en el Territorio Histórico de Bizkaia durante el ejercicio 2026.",
+     "organo": "DIPUTACIÓN FORAL DE BIZKAIA / DIPUTACIÓN FORAL DE BIZKAIA",
+     "presupuesto": 1768000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922690"
+    },
+    {
+     "titulo": "AYUDA EXTRAORD. PERDIDAS ECONOMICAS POR GUERRA ORIENTE MEDIO",
+     "organo": "PAÍS VASCO / DEPARTAMENTO DE ECONOMÍA, TRABAJO Y EMPLEO",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928810"
+    },
+    {
+     "titulo": "Lortu Berria",
+     "organo": "PAÍS VASCO / AGENCIA VASCA DE DESARROLLO EMPRESARIAL",
+     "presupuesto": 1200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919241"
+    },
+    {
+     "titulo": "CONVOCATORIA AYUDAS A LA CONCILIACIÓN DE LA VIDA FAMILIAR Y LABORAL 2026",
+     "organo": "PAÍS VASCO / LANBIDE-SERVICIO VASCO DE EMPLEO",
+     "presupuesto": 1055000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923970"
+    }
+   ]
+  },
+  "Navarra": {
+   "provincia": "Navarra",
+   "convocatorias": 44,
+   "estatales": 17,
+   "presupuesto": 58816769,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 7,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 12,
+    "comercio": 5,
+    "hosteleria": 4,
+    "transporte": 4,
+    "profesionales": 4,
+    "bares_restaurantes": 4,
+    "alojamiento": 4,
+    "transporte_autonomo": 4,
+    "industria": 2,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Estella-Lizarra",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Valle de Egüés/Eguesibar",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Aranguren",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Bargota",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Cendea de Olza/Oltza Zendea",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Convocatoria de 2026 de ayudas para la realización de proyectos de I+D+i_ID_FEDER",
+     "organo": "COMUNIDAD FORAL DE NAVARRA / DEPARTAMENTO DE INDUSTRIA Y DE TRANSICION ECOLOGICA Y DIGITAL EMPRESARIAL",
+     "presupuesto": 33131000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919418"
+    },
+    {
+     "titulo": "Bases reguladoras y convocatoria para 2026 de la ayuda a inversiones en explotaciones agrarias PEPAC 2023-2027",
+     "organo": "COMUNIDAD FORAL DE NAVARRA / DEPARTAMENTO DE DESARROLLO RURAL Y MEDIO AMBIENTE",
+     "presupuesto": 8500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928367"
+    },
+    {
+     "titulo": "Ayuda extraordinaria precio de gasóleo de uso profesional Real DL 7/2026 de 20 de marzo, por el que se aprueba el Plan Integral de Respuesta a la Crisis en Oriente Medio (G01A, G01M, G09 y G04)",
+     "organo": "COMUNIDAD FORAL DE NAVARRA / HACIENDA TRIBUTARIA DE NAVARRA",
+     "presupuesto": 7850000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923952"
+    },
+    {
+     "titulo": "Bases reguladoras y convocatoria para 2026 de la ayuda a inversiones en explotaciones agrarias (Objetivo Medioambiental) PEPAC 2023-2027",
+     "organo": "COMUNIDAD FORAL DE NAVARRA / DEPARTAMENTO DE DESARROLLO RURAL Y MEDIO AMBIENTE",
+     "presupuesto": 1750000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928382"
+    },
+    {
+     "titulo": "Subvención del Fondo de Residuos 2026. Flujo de otros residuos a empresas",
+     "organo": "COMUNIDAD FORAL DE NAVARRA / DEPARTAMENTO DE DESARROLLO RURAL Y MEDIO AMBIENTE",
+     "presupuesto": 1705000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920613"
+    }
+   ]
+  },
+  "La Rioja": {
+   "provincia": "La Rioja",
+   "convocatorias": 31,
+   "estatales": 17,
+   "presupuesto": 18880985,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 4,
+    "industria": 3,
+    "comercio": 1,
+    "hosteleria": 1,
+    "transporte": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "ISV PROMOCION VINO TERCEROS PAISES",
+     "organo": "LA RIOJA / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MUNDO RURAL Y MEDIO AMBIENTE",
+     "presupuesto": 4824635,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919532"
+    },
+    {
+     "titulo": "(EE) Eficiencia energética Industrial FNEE (Reg. 651/2014)",
+     "organo": "LA RIOJA / AGENCIA DE DESARROLLO ECONÓMICO DE LA RIOJA",
+     "presupuesto": 3439723,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919209"
+    },
+    {
+     "titulo": "AYUDA EXCEPCIONAL AL MANTENIMIENTO DE LA ACTIVIDAD AGRARIA PROF.",
+     "organo": "LA RIOJA / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MUNDO RURAL Y MEDIO AMBIENTE",
+     "presupuesto": 3000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927467"
+    },
+    {
+     "titulo": "(TEC) Econ. Circular y Trans.Energética (Reg. 651/2014)",
+     "organo": "LA RIOJA / AGENCIA DE DESARROLLO ECONÓMICO DE LA RIOJA",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918621"
+    },
+    {
+     "titulo": "(REE) Eficiencia energética Terciario FNEE (Reg. 651/2014)",
+     "organo": "LA RIOJA / AGENCIA DE DESARROLLO ECONÓMICO DE LA RIOJA",
+     "presupuesto": 1573560,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919217"
+    }
+   ]
+  },
+  "Huesca": {
+   "provincia": "Huesca",
+   "convocatorias": 33,
+   "estatales": 17,
+   "presupuesto": 29001212,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 3,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 10,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 3,
+   "por_sector": {
+    "agricultura": 7,
+    "industria": 3,
+    "profesionales": 3,
+    "comercio": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2,
+    "hosteleria": 1,
+    "transporte": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Barbastro",
+     "convocatorias": 3
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "ORDEN AGA/1256/2026, de 5 de agosto, por la que se convocan subvenciones para inversiones en transformación, comercialización y desarrollo de productos agrícolas (industrias agroalimentarias), en el marco del PEPAC para el periodo 2023-2027 para 2027",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 18985067,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923747"
+    },
+    {
+     "titulo": "ORDEN ECE/___/2026, de 23 de septiembre, por la que se aprueban las bases reguladoras y la convocatoria de carácter urgente de subvenciones para reparación de daños causados y compensación de pérdidas como consecuencia de los incendios del verano de 2026.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 3000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931023"
+    },
+    {
+     "titulo": "ORDEN por la que se convocan subvenciones por la prestación de servicios públicos de transporte regular de viajeros por carretera con explotación económicamente deficitaria en el periodo de febrero a octubre de 2024",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE TRANSPORTES",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917890"
+    },
+    {
+     "titulo": "ORDEN AGA/ / de 7 de julio, por la que se convocan las ayudas a la destilación de subproductos de vinificación establecida en el Real Decreto 905/2022, de 25 de octubre, por el que se regula la ISV en el marco del PEPAC",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917893"
+    },
+    {
+     "titulo": "ORDEN ECE/ /2026, de 31 de julio, por la que se convocan para el ejercicio 2026 ayudas para la realización de inversiones en recintos feriales y para la promoción y organización de certámenes feriales en la Comunidad Autónoma de Aragón.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 615000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922117"
+    }
+   ]
+  },
+  "Teruel": {
+   "provincia": "Teruel",
+   "convocatorias": 32,
+   "estatales": 17,
+   "presupuesto": 29764056,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 11,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 7,
+    "comercio": 5,
+    "peluqueria_estetica": 4,
+    "talleres_vehiculos": 4,
+    "industria": 3,
+    "profesionales": 3,
+    "hosteleria": 2,
+    "bares_restaurantes": 2,
+    "alojamiento": 2,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Teruel",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "ORDEN AGA/1256/2026, de 5 de agosto, por la que se convocan subvenciones para inversiones en transformación, comercialización y desarrollo de productos agrícolas (industrias agroalimentarias), en el marco del PEPAC para el periodo 2023-2027 para 2027",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 18985067,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923747"
+    },
+    {
+     "titulo": "ORDEN ECE/___/2026, de 23 de septiembre, por la que se aprueban las bases reguladoras y la convocatoria de carácter urgente de subvenciones para reparación de daños causados y compensación de pérdidas como consecuencia de los incendios del verano de 2026.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 3000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931023"
+    },
+    {
+     "titulo": "ORDEN por la que se convocan subvenciones por la prestación de servicios públicos de transporte regular de viajeros por carretera con explotación económicamente deficitaria en el periodo de febrero a octubre de 2024",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE TRANSPORTES",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917890"
+    },
+    {
+     "titulo": "ORDEN AGA/ / de 7 de julio, por la que se convocan las ayudas a la destilación de subproductos de vinificación establecida en el Real Decreto 905/2022, de 25 de octubre, por el que se regula la ISV en el marco del PEPAC",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917893"
+    },
+    {
+     "titulo": "ORDEN ECE/ /2026, de 31 de julio, por la que se convocan para el ejercicio 2026 ayudas para la realización de inversiones en recintos feriales y para la promoción y organización de certámenes feriales en la Comunidad Autónoma de Aragón.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 615000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922117"
+    }
+   ]
+  },
+  "Zaragoza": {
+   "provincia": "Zaragoza",
+   "convocatorias": 34,
+   "estatales": 17,
+   "presupuesto": 28979856,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 10,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 2,
+   "por_sector": {
+    "agricultura": 7,
+    "comercio": 4,
+    "peluqueria_estetica": 4,
+    "talleres_vehiculos": 4,
+    "industria": 3,
+    "profesionales": 3,
+    "hosteleria": 2,
+    "bares_restaurantes": 2,
+    "alojamiento": 2,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Escatrón",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Cariñena",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Tauste",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Utebo",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Zuera",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "ORDEN AGA/1256/2026, de 5 de agosto, por la que se convocan subvenciones para inversiones en transformación, comercialización y desarrollo de productos agrícolas (industrias agroalimentarias), en el marco del PEPAC para el periodo 2023-2027 para 2027",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 18985067,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923747"
+    },
+    {
+     "titulo": "ORDEN ECE/___/2026, de 23 de septiembre, por la que se aprueban las bases reguladoras y la convocatoria de carácter urgente de subvenciones para reparación de daños causados y compensación de pérdidas como consecuencia de los incendios del verano de 2026.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 3000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931023"
+    },
+    {
+     "titulo": "ORDEN por la que se convocan subvenciones por la prestación de servicios públicos de transporte regular de viajeros por carretera con explotación económicamente deficitaria en el periodo de febrero a octubre de 2024",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE TRANSPORTES",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917890"
+    },
+    {
+     "titulo": "ORDEN AGA/ / de 7 de julio, por la que se convocan las ayudas a la destilación de subproductos de vinificación establecida en el Real Decreto 905/2022, de 25 de octubre, por el que se regula la ISV en el marco del PEPAC",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE INNOVACIÓN Y PROMOCIÓN AGROALIMENTARIA",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917893"
+    },
+    {
+     "titulo": "ORDEN ECE/ /2026, de 31 de julio, por la que se convocan para el ejercicio 2026 ayudas para la realización de inversiones en recintos feriales y para la promoción y organización de certámenes feriales en la Comunidad Autónoma de Aragón.",
+     "organo": "ARAGÓN / DIRECCIÓN GENERAL DE COMERCIO, FERIAS Y ARTESANÍA",
+     "presupuesto": 615000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922117"
+    }
+   ]
+  },
+  "Madrid": {
+   "provincia": "Madrid",
+   "convocatorias": 44,
+   "estatales": 17,
+   "presupuesto": 68488000,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 21,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 3,
+    "comercio": 2,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Parla",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Madrid",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Ciempozuelos",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA EFECTO TRACTOR EN CONSORCIO (HUBS) 2026-2028 FEDER",
+     "organo": "COMUNIDAD DE MADRID / CONSEJERÍA DE EDUCACIÓN, CIENCIA Y UNIVERSIDADES",
+     "presupuesto": 18750000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918248"
+    },
+    {
+     "titulo": "AYUDAS ACCIONES FORMATIVAS TRABAJADORES OCUPADOS CNECP 2026 PRESENCIAL",
+     "organo": "COMUNIDAD DE MADRID / CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "presupuesto": 10800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917510"
+    },
+    {
+     "titulo": "AYUDAS EMERGENCIA AUTÓNOMOS INCENDIOS SIERRA OESTE COMUNIDAD DE MADRID",
+     "organo": "COMUNIDAD DE MADRID / CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "presupuesto": 8000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928016"
+    },
+    {
+     "titulo": "FINANCIACION ESTATAL - OFIL ORIENT.FORM.INSERC.LAB.COMPR.CONTR.",
+     "organo": "COMUNIDAD DE MADRID / CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931557"
+    },
+    {
+     "titulo": "FINANCIACION FSE+ y CM:INC.LAB.PERS.EXC.SOC.-AYUD.EMPRESAS INSERCION (AY.1)",
+     "organo": "COMUNIDAD DE MADRID / CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "presupuesto": 4730000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917544"
+    }
+   ]
+  },
+  "Ávila": {
+   "provincia": "Ávila",
+   "convocatorias": 36,
+   "estatales": 17,
+   "presupuesto": 45045200,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 5,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 9,
+    "profesionales": 3,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "comercio": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Candeleda",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Burgos": {
+   "provincia": "Burgos",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 44953714,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 3,
+    "comercio": 2,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "transporte": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Miranda de Ebro",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "León": {
+   "provincia": "León",
+   "convocatorias": 38,
+   "estatales": 17,
+   "presupuesto": 57532892,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 7,
+    "Comunidad autónoma": 13,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 3,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "comercio": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 19 de agosto de 2026 del Presidente del ICECYL que aprueba la convocatoria destinadas a financiar proyectos ligados a destinos turísticos de excelencia en los territorios afectados por el Fondo de Transición Justa en Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 11914000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925845"
+    },
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    }
+   ]
+  },
+  "Palencia": {
+   "provincia": "Palencia",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 57035000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 13,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 7,
+    "profesionales": 3,
+    "comercio": 2,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "transporte": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Palencia",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 19 de agosto de 2026 del Presidente del ICECYL que aprueba la convocatoria destinadas a financiar proyectos ligados a destinos turísticos de excelencia en los territorios afectados por el Fondo de Transición Justa en Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 11914000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925845"
+    },
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    }
+   ]
+  },
+  "Salamanca": {
+   "provincia": "Salamanca",
+   "convocatorias": 33,
+   "estatales": 17,
+   "presupuesto": 44921000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 3,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "comercio": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Segovia": {
+   "provincia": "Segovia",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 45276000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 4,
+    "industria": 3,
+    "comercio": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2,
+    "alimentacion_artesana": 2,
+    "hosteleria": 1,
+    "transporte": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Segovia",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Soria": {
+   "provincia": "Soria",
+   "convocatorias": 36,
+   "estatales": 17,
+   "presupuesto": 45988000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 2,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 3,
+    "comercio": 2,
+    "industria": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2,
+    "alimentacion_artesana": 2,
+    "hosteleria": 1,
+    "bares_restaurantes": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Burgo de Osma-Ciudad de Osma",
+     "convocatorias": 2
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Valladolid": {
+   "provincia": "Valladolid",
+   "convocatorias": 36,
+   "estatales": 17,
+   "presupuesto": 45032000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 5,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 7,
+    "profesionales": 3,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "comercio": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Valladolid",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Zamora": {
+   "provincia": "Zamora",
+   "convocatorias": 36,
+   "estatales": 17,
+   "presupuesto": 46343000,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 6,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 4,
+   "por_sector": {
+    "agricultura": 11,
+    "profesionales": 3,
+    "industria": 2,
+    "alimentacion_artesana": 2,
+    "comercio": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 23 de julio de 2026, del Presidente del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones cofinanciadas por el FSE+, destinadas a la financiación del Programa de Orientación, Formación e Inserción (OFI) -L1",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 11200000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921343"
+    },
+    {
+     "titulo": "Resolución de 10 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan subvenciones, cofinanciadas por el FSE+, dirigidas al fomento del empleo estable por cuenta ajena en Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918539"
+    },
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del Servicio Público de Empleo de Castilla y León, por la que se convocan las subvenciones destinadas a fomentar el autoempleo, en la Comunidad de Castilla y León, para el año 2026.",
+     "organo": "CASTILLA Y LEÓN / SERVICIO PÚBLICO DE EMPLEO DE CASTILLA Y LEÓN",
+     "presupuesto": 10000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916711"
+    },
+    {
+     "titulo": "Orden de 16 de julio de 2026 - AGMRPA, se convocan determinadas ayudas no reembolsables destinadas a la mejora de la competitividad de la industria agroalimentaria - Plan Estratégico de la Industria Agroalimentaria de Castilla y León 2024 -2028. Línea AI2",
+     "organo": "CASTILLA Y LEÓN / CONSEJERÍA DE AGRICULTURA, GANADERÍA, MEDIO RURAL Y POLÍTICA AMBIENTAL",
+     "presupuesto": 4000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919861"
+    },
+    {
+     "titulo": "Resolución de 14 de julio de 2026 de la Presidencia del ICECYL por la que se aprueba la convocatoria para la concesión de subvenciones destinadas a financiar proyectos de expansión internacional de las pymes de Castilla y León",
+     "organo": "CASTILLA Y LEÓN / INSTITUTO PARA LA COMPETITIVIDAD EMPRESARIAL DE CASTILLA Y LEÓN",
+     "presupuesto": 2500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919073"
+    }
+   ]
+  },
+  "Albacete": {
+   "provincia": "Albacete",
+   "convocatorias": 48,
+   "estatales": 17,
+   "presupuesto": 52955416,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 25,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 6,
+   "por_sector": {
+    "comercio": 10,
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 4,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 22/07/2026, de la Dirección General de Formación Profesional en el Ámbito Laboral, por la que se aprueba la convocatoria pública de concesión de subvenciones en el marco del Programa Talleres+ (líneas 1 y 2) para el año 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL FORMACIÓN PROFESIONAL EN EL ÁMBITO LABORAL",
+     "presupuesto": 18845839,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921057"
+    },
+    {
+     "titulo": "Resolución de 01/09/2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria ayudas del Bono Crecimiento Pyme en Castilla- La Mancha, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 9000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927685"
+    },
+    {
+     "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria de ayudas para el fomento de la puesta en marcha de nuevos establecimientos industriales, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932454"
+    },
+    {
+     "titulo": "Decreto por el que se regula la concesión directa de subvenciones en el marco del Programa Investigo, cofinanciadas por el Fondo Social Europeo Plus.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPLEO",
+     "presupuesto": 5056250,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921044"
+    },
+    {
+     "titulo": "Resolución de 08/07/2026, por la que se aprueba la convocatoria de las ayudas del Programa de apoyo a la innovación Innova-Adelante en Castilla-La Mancha, cofinanciable en el marco del programa Feder de Castilla-La Mancha 2021-2027, ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918034"
+    }
+   ]
+  },
+  "Ciudad Real": {
+   "provincia": "Ciudad Real",
+   "convocatorias": 48,
+   "estatales": 17,
+   "presupuesto": 52955416,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 25,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 6,
+   "por_sector": {
+    "comercio": 10,
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 4,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 22/07/2026, de la Dirección General de Formación Profesional en el Ámbito Laboral, por la que se aprueba la convocatoria pública de concesión de subvenciones en el marco del Programa Talleres+ (líneas 1 y 2) para el año 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL FORMACIÓN PROFESIONAL EN EL ÁMBITO LABORAL",
+     "presupuesto": 18845839,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921057"
+    },
+    {
+     "titulo": "Resolución de 01/09/2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria ayudas del Bono Crecimiento Pyme en Castilla- La Mancha, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 9000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927685"
+    },
+    {
+     "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria de ayudas para el fomento de la puesta en marcha de nuevos establecimientos industriales, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932454"
+    },
+    {
+     "titulo": "Decreto por el que se regula la concesión directa de subvenciones en el marco del Programa Investigo, cofinanciadas por el Fondo Social Europeo Plus.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPLEO",
+     "presupuesto": 5056250,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921044"
+    },
+    {
+     "titulo": "Resolución de 08/07/2026, por la que se aprueba la convocatoria de las ayudas del Programa de apoyo a la innovación Innova-Adelante en Castilla-La Mancha, cofinanciable en el marco del programa Feder de Castilla-La Mancha 2021-2027, ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918034"
+    }
+   ]
+  },
+  "Cuenca": {
+   "provincia": "Cuenca",
+   "convocatorias": 50,
+   "estatales": 17,
+   "presupuesto": 53008416,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 25,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 6,
+   "por_sector": {
+    "comercio": 11,
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 4,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 22/07/2026, de la Dirección General de Formación Profesional en el Ámbito Laboral, por la que se aprueba la convocatoria pública de concesión de subvenciones en el marco del Programa Talleres+ (líneas 1 y 2) para el año 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL FORMACIÓN PROFESIONAL EN EL ÁMBITO LABORAL",
+     "presupuesto": 18845839,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921057"
+    },
+    {
+     "titulo": "Resolución de 01/09/2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria ayudas del Bono Crecimiento Pyme en Castilla- La Mancha, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 9000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927685"
+    },
+    {
+     "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria de ayudas para el fomento de la puesta en marcha de nuevos establecimientos industriales, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932454"
+    },
+    {
+     "titulo": "Decreto por el que se regula la concesión directa de subvenciones en el marco del Programa Investigo, cofinanciadas por el Fondo Social Europeo Plus.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPLEO",
+     "presupuesto": 5056250,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921044"
+    },
+    {
+     "titulo": "Resolución de 08/07/2026, por la que se aprueba la convocatoria de las ayudas del Programa de apoyo a la innovación Innova-Adelante en Castilla-La Mancha, cofinanciable en el marco del programa Feder de Castilla-La Mancha 2021-2027, ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918034"
+    }
+   ]
+  },
+  "Guadalajara": {
+   "provincia": "Guadalajara",
+   "convocatorias": 50,
+   "estatales": 17,
+   "presupuesto": 56705416,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 26,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 7,
+   "por_sector": {
+    "comercio": 10,
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 4,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 22/07/2026, de la Dirección General de Formación Profesional en el Ámbito Laboral, por la que se aprueba la convocatoria pública de concesión de subvenciones en el marco del Programa Talleres+ (líneas 1 y 2) para el año 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL FORMACIÓN PROFESIONAL EN EL ÁMBITO LABORAL",
+     "presupuesto": 18845839,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921057"
+    },
+    {
+     "titulo": "Resolución de 01/09/2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria ayudas del Bono Crecimiento Pyme en Castilla- La Mancha, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 9000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927685"
+    },
+    {
+     "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria de ayudas para el fomento de la puesta en marcha de nuevos establecimientos industriales, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932454"
+    },
+    {
+     "titulo": "Decreto por el que se regula la concesión directa de subvenciones en el marco del Programa Investigo, cofinanciadas por el Fondo Social Europeo Plus.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPLEO",
+     "presupuesto": 5056250,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921044"
+    },
+    {
+     "titulo": "Resolución de 08/07/2026, por la que se aprueba la convocatoria de las ayudas del Programa de apoyo a la innovación Innova-Adelante en Castilla-La Mancha, cofinanciable en el marco del programa Feder de Castilla-La Mancha 2021-2027, ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918034"
+    }
+   ]
+  },
+  "Toledo": {
+   "provincia": "Toledo",
+   "convocatorias": 50,
+   "estatales": 17,
+   "presupuesto": 52975416,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 2,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 25,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 6,
+   "por_sector": {
+    "comercio": 11,
+    "agricultura": 6,
+    "industria": 4,
+    "profesionales": 4,
+    "transporte": 1,
+    "transporte_autonomo": 1,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Gamonal, Entidad Local Menor",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Toledo",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 22/07/2026, de la Dirección General de Formación Profesional en el Ámbito Laboral, por la que se aprueba la convocatoria pública de concesión de subvenciones en el marco del Programa Talleres+ (líneas 1 y 2) para el año 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL FORMACIÓN PROFESIONAL EN EL ÁMBITO LABORAL",
+     "presupuesto": 18845839,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921057"
+    },
+    {
+     "titulo": "Resolución de 01/09/2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria ayudas del Bono Crecimiento Pyme en Castilla- La Mancha, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 9000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927685"
+    },
+    {
+     "titulo": "Resolución de 29 de septiembre de 2026, de la Dirección General de Empresas, por la que se aprueba la convocatoria de ayudas para el fomento de la puesta en marcha de nuevos establecimientos industriales, para el ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/932454"
+    },
+    {
+     "titulo": "Decreto por el que se regula la concesión directa de subvenciones en el marco del Programa Investigo, cofinanciadas por el Fondo Social Europeo Plus.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPLEO",
+     "presupuesto": 5056250,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/921044"
+    },
+    {
+     "titulo": "Resolución de 08/07/2026, por la que se aprueba la convocatoria de las ayudas del Programa de apoyo a la innovación Innova-Adelante en Castilla-La Mancha, cofinanciable en el marco del programa Feder de Castilla-La Mancha 2021-2027, ejercicio 2026.",
+     "organo": "CASTILLA-LA MANCHA / DIRECCIÓN GENERAL DE EMPRESAS",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918034"
+    }
+   ]
+  },
+  "Badajoz": {
+   "provincia": "Badajoz",
+   "convocatorias": 48,
+   "estatales": 17,
+   "presupuesto": 34661929,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 23,
+    "Estado": 17,
+    "Otros organismos": 6
+   },
+   "para_cualquier_negocio": 11,
+   "por_sector": {
+    "agricultura": 11,
+    "industria": 8,
+    "comercio": 7,
+    "profesionales": 7,
+    "construccion": 4,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Mérida",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Subv 2026 a Centros Especiales Empleo, para mantenimiento de la plantilla de personas con discapacidad (Programa II), s/Resolución de 30 de julio de 2026 que las convoca",
+     "organo": "EXTREMADURA / SERVICIO EXTREMEÑO PÚBLICO DE EMPLEO (SEXPE)",
+     "presupuesto": 16550000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926691"
+    },
+    {
+     "titulo": "Subv. 2026 a familias para servicios de cuidados de menores de 3 años como medida de fomento de la conciliación de la vida personal, familiar y laboral, s/ RESOLUCIÓN de 9 de septiembre de 2026, del Secretario General que convoca",
+     "organo": "EXTREMADURA / SECRETARÍA GENERAL DE IGUALDAD Y CONCILIACIÓN",
+     "presupuesto": 5868000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929941"
+    },
+    {
+     "titulo": "AYUDAS PLAN ESTÍMULO AL CONSUMO EN EL COMERCIO MINORISTA 2026",
+     "organo": "MÉRIDA / AYUNTAMIENTO DE MÉRIDA",
+     "presupuesto": 2000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931020"
+    },
+    {
+     "titulo": "Ayudas 2026 a personas trabajadoras autónomas y pymes para la conciliación de la vida laboral y familiar, según Decreto 87/2025, de 29 de Julio",
+     "organo": "EXTREMADURA / SECRETARÍA GENERAL DE IGUALDAD Y CONCILIACIÓN",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930560"
+    },
+    {
+     "titulo": "Convocatoria 2026 para las ayudas a las Agrupaciones de Defensa Sanitaria Ganaderas y Agrupaciones de Defensa Sanitaria Apícolas, s/ Resolución de 22 de julio de 2026",
+     "organo": "EXTREMADURA / DIRECCIÓN GENERAL DE AGRICULTURA Y GANADERÍA",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922983"
+    }
+   ]
+  },
+  "Cáceres": {
+   "provincia": "Cáceres",
+   "convocatorias": 51,
+   "estatales": 17,
+   "presupuesto": 33096929,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 24,
+    "Estado": 17,
+    "Otros organismos": 6
+   },
+   "para_cualquier_negocio": 11,
+   "por_sector": {
+    "agricultura": 12,
+    "industria": 8,
+    "comercio": 7,
+    "profesionales": 7,
+    "construccion": 4,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Cáceres",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Subv 2026 a Centros Especiales Empleo, para mantenimiento de la plantilla de personas con discapacidad (Programa II), s/Resolución de 30 de julio de 2026 que las convoca",
+     "organo": "EXTREMADURA / SERVICIO EXTREMEÑO PÚBLICO DE EMPLEO (SEXPE)",
+     "presupuesto": 16550000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926691"
+    },
+    {
+     "titulo": "Subv. 2026 a familias para servicios de cuidados de menores de 3 años como medida de fomento de la conciliación de la vida personal, familiar y laboral, s/ RESOLUCIÓN de 9 de septiembre de 2026, del Secretario General que convoca",
+     "organo": "EXTREMADURA / SECRETARÍA GENERAL DE IGUALDAD Y CONCILIACIÓN",
+     "presupuesto": 5868000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/929941"
+    },
+    {
+     "titulo": "Ayudas 2026 a personas trabajadoras autónomas y pymes para la conciliación de la vida laboral y familiar, según Decreto 87/2025, de 29 de Julio",
+     "organo": "EXTREMADURA / SECRETARÍA GENERAL DE IGUALDAD Y CONCILIACIÓN",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930560"
+    },
+    {
+     "titulo": "Convocatoria 2026 para las ayudas a las Agrupaciones de Defensa Sanitaria Ganaderas y Agrupaciones de Defensa Sanitaria Apícolas, s/ Resolución de 22 de julio de 2026",
+     "organo": "EXTREMADURA / DIRECCIÓN GENERAL DE AGRICULTURA Y GANADERÍA",
+     "presupuesto": 1500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922983"
+    },
+    {
+     "titulo": "Sub. 2026 NO MINIMIS a entidades promotoras del programa Formación y Empleo PASARELA EMPRESA según Resolución de 15 de julio de 2026",
+     "organo": "EXTREMADURA / SERVICIO EXTREMEÑO PÚBLICO DE EMPLEO (SEXPE)",
+     "presupuesto": 1250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920624"
+    }
+   ]
+  },
+  "Barcelona": {
+   "provincia": "Barcelona",
+   "convocatorias": 146,
+   "estatales": 17,
+   "presupuesto": 416565871,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 44,
+    "Diputación / Cabildo / Consell": 8,
+    "Comunidad autónoma": 74,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 31,
+    "peluqueria_estetica": 12,
+    "comercio": 11,
+    "talleres_vehiculos": 11,
+    "profesionales": 8,
+    "hosteleria": 3,
+    "industria": 3,
+    "bares_restaurantes": 3,
+    "transporte": 2,
+    "transporte_autonomo": 2,
+    "alimentacion_artesana": 2,
+    "construccion": 1,
+    "alojamiento": 1
+   },
+   "municipios": [
+    {
+     "nombre": "La Roca del Vallès",
+     "convocatorias": 5
+    },
+    {
+     "nombre": "Vic",
+     "convocatorias": 5
+    },
+    {
+     "nombre": "Santa Coloma de Gramenet",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Vilafranca del Penedès",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Palau-Solità i Plegamans",
+     "convocatorias": 2
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación de oferta en áreas prioritarias",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 80000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927997"
+    },
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación Profesional Ocupacional Dual (SOC-FPODUAL)",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 40500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926001"
+    },
+    {
+     "titulo": "Resolución, de 28 de agosto de 2026, por la que se abre la convocatoria de 2026 de los Programas del Sistema de Formación en el Trabajo, dirigidos a personas trabajadoras ocupadas, que subvenciona el Consorcio para la Formación Continua de Cataluña",
+     "organo": "CATALUÑA / CONSORCI PER A LA FORMACIÓ CONTÍNUA DE CATALUNYA",
+     "presupuesto": 32221707,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927406"
+    },
+    {
+     "titulo": "Ayudas a las líneas del Plan de seguros agrarios 2025 (Agroseguro)",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 32000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922490"
+    },
+    {
+     "titulo": "Ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios, correspondiendo al año 2026",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 20000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928529"
+    }
+   ]
+  },
+  "Girona": {
+   "provincia": "Girona",
+   "convocatorias": 111,
+   "estatales": 17,
+   "presupuesto": 414390970,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 10,
+    "Diputación / Cabildo / Consell": 7,
+    "Comunidad autónoma": 74,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 31,
+    "profesionales": 6,
+    "peluqueria_estetica": 6,
+    "talleres_vehiculos": 6,
+    "comercio": 5,
+    "industria": 2,
+    "hosteleria": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1
+   },
+   "municipios": [
+    {
+     "nombre": "La Cellera de Ter",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Roses",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Palamós",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Sant Feliu de Guíxols",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Consorci de Benestar Social Gironès-Salt",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación de oferta en áreas prioritarias",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 80000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927997"
+    },
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación Profesional Ocupacional Dual (SOC-FPODUAL)",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 40500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926001"
+    },
+    {
+     "titulo": "Resolución, de 28 de agosto de 2026, por la que se abre la convocatoria de 2026 de los Programas del Sistema de Formación en el Trabajo, dirigidos a personas trabajadoras ocupadas, que subvenciona el Consorcio para la Formación Continua de Cataluña",
+     "organo": "CATALUÑA / CONSORCI PER A LA FORMACIÓ CONTÍNUA DE CATALUNYA",
+     "presupuesto": 32221707,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927406"
+    },
+    {
+     "titulo": "Ayudas a las líneas del Plan de seguros agrarios 2025 (Agroseguro)",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 32000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922490"
+    },
+    {
+     "titulo": "Ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios, correspondiendo al año 2026",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 20000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928529"
+    }
+   ]
+  },
+  "Lleida": {
+   "provincia": "Lleida",
+   "convocatorias": 104,
+   "estatales": 17,
+   "presupuesto": 415935623,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 3,
+    "Diputación / Cabildo / Consell": 6,
+    "Comunidad autónoma": 75,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 33,
+    "profesionales": 6,
+    "peluqueria_estetica": 6,
+    "talleres_vehiculos": 6,
+    "comercio": 5,
+    "industria": 3,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Lleida",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Naut Aran",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Alcanó",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación de oferta en áreas prioritarias",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 80000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927997"
+    },
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación Profesional Ocupacional Dual (SOC-FPODUAL)",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 40500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926001"
+    },
+    {
+     "titulo": "Resolución, de 28 de agosto de 2026, por la que se abre la convocatoria de 2026 de los Programas del Sistema de Formación en el Trabajo, dirigidos a personas trabajadoras ocupadas, que subvenciona el Consorcio para la Formación Continua de Cataluña",
+     "organo": "CATALUÑA / CONSORCI PER A LA FORMACIÓ CONTÍNUA DE CATALUNYA",
+     "presupuesto": 32221707,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927406"
+    },
+    {
+     "titulo": "Ayudas a las líneas del Plan de seguros agrarios 2025 (Agroseguro)",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 32000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922490"
+    },
+    {
+     "titulo": "Ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios, correspondiendo al año 2026",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 20000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928529"
+    }
+   ]
+  },
+  "Tarragona": {
+   "provincia": "Tarragona",
+   "convocatorias": 109,
+   "estatales": 17,
+   "presupuesto": 415076043,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 9,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 75,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 7,
+   "por_sector": {
+    "agricultura": 31,
+    "profesionales": 7,
+    "comercio": 6,
+    "peluqueria_estetica": 6,
+    "talleres_vehiculos": 6,
+    "industria": 4,
+    "hosteleria": 1,
+    "transporte": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Reus",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Valls",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Constantí",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Amposta",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "La Canonja",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación de oferta en áreas prioritarias",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 80000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927997"
+    },
+    {
+     "titulo": "Resolución EMT/ /2026, de de , por la que se abre la convocatoria de subvenciones para el año 2026 en relación con las actuaciones del programa Formación Profesional Ocupacional Dual (SOC-FPODUAL)",
+     "organo": "CATALUÑA / SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "presupuesto": 40500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926001"
+    },
+    {
+     "titulo": "Resolución, de 28 de agosto de 2026, por la que se abre la convocatoria de 2026 de los Programas del Sistema de Formación en el Trabajo, dirigidos a personas trabajadoras ocupadas, que subvenciona el Consorcio para la Formación Continua de Cataluña",
+     "organo": "CATALUÑA / CONSORCI PER A LA FORMACIÓ CONTÍNUA DE CATALUNYA",
+     "presupuesto": 32221707,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927406"
+    },
+    {
+     "titulo": "Ayudas a las líneas del Plan de seguros agrarios 2025 (Agroseguro)",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 32000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922490"
+    },
+    {
+     "titulo": "Ayudas a la mejora de los procesos de transformación y comercialización de los productos agroalimentarios, correspondiendo al año 2026",
+     "organo": "CATALUÑA / DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "presupuesto": 20000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928529"
+    }
+   ]
+  },
+  "Alicante": {
+   "provincia": "Alicante",
+   "convocatorias": 56,
+   "estatales": 17,
+   "presupuesto": 85606427,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 21,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "comercio": 15,
+    "agricultura": 15,
+    "hosteleria": 10,
+    "profesionales": 10,
+    "bares_restaurantes": 10,
+    "alojamiento": 10,
+    "industria": 8,
+    "peluqueria_estetica": 8,
+    "talleres_vehiculos": 8,
+    "transporte": 5,
+    "construccion": 5,
+    "transporte_autonomo": 5,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Pinós, El/Pinoso",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Calp",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Aspe",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Benidorm",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Xaló",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVFGA), por la que se deja sin efecto la Resolución de 4 de septiembre de 2025, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVF",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 25000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916654"
+    },
+    {
+     "titulo": "Convocatoria para el ejercicio 2026 ayudas a la pesca sostenible, acuicultura sostenible y campañas de promoción FEMPA 2021-2027",
+     "organo": "COMUNITAT VALENCIANA / SECRETARÍA AUTONÓMICA DE AGRICULTURA, GANADERÍA Y PESCA",
+     "presupuesto": 16260000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917678"
+    },
+    {
+     "titulo": "Ayudas para impulsar proyectos industriales que sean estratégicos para la reindustrialización de la Comunitat Valenciana. Ejercicio 2026. STRATG.",
+     "organo": "COMUNITAT VALENCIANA / SECRETARIA AUTONÓMICA DE INDUSTRIA, COMERCIO Y CONSUMO",
+     "presupuesto": 12653146,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916933"
+    },
+    {
+     "titulo": "Resolución 30 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan, para el año 2026, las ayudas, financiadas por FEADER, para la aplicación de las intervenciones en materia forestal 6881.4 Inversio",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 12497945,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922963"
+    },
+    {
+     "titulo": "Resolución del 25 septiembre de 2026 del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan ayudas al establecimiento de personas jóvenes agricultoras y nuevos agricultores de la Comunitat Valenciana en el marco del Pl",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 8270000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931561"
+    }
+   ]
+  },
+  "Castellón": {
+   "provincia": "Castellón",
+   "convocatorias": 38,
+   "estatales": 17,
+   "presupuesto": 83654270,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 15,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 9,
+    "profesionales": 4,
+    "industria": 3,
+    "comercio": 2,
+    "construccion": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Alcalà de Xivert",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Onda",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Vinaròs",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVFGA), por la que se deja sin efecto la Resolución de 4 de septiembre de 2025, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVF",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 25000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916654"
+    },
+    {
+     "titulo": "Convocatoria para el ejercicio 2026 ayudas a la pesca sostenible, acuicultura sostenible y campañas de promoción FEMPA 2021-2027",
+     "organo": "COMUNITAT VALENCIANA / SECRETARÍA AUTONÓMICA DE AGRICULTURA, GANADERÍA Y PESCA",
+     "presupuesto": 16260000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917678"
+    },
+    {
+     "titulo": "Ayudas para impulsar proyectos industriales que sean estratégicos para la reindustrialización de la Comunitat Valenciana. Ejercicio 2026. STRATG.",
+     "organo": "COMUNITAT VALENCIANA / SECRETARIA AUTONÓMICA DE INDUSTRIA, COMERCIO Y CONSUMO",
+     "presupuesto": 12653146,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916933"
+    },
+    {
+     "titulo": "Resolución 30 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan, para el año 2026, las ayudas, financiadas por FEADER, para la aplicación de las intervenciones en materia forestal 6881.4 Inversio",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 12497945,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922963"
+    },
+    {
+     "titulo": "Resolución del 25 septiembre de 2026 del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan ayudas al establecimiento de personas jóvenes agricultoras y nuevos agricultores de la Comunitat Valenciana en el marco del Pl",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 8270000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931561"
+    }
+   ]
+  },
+  "Valencia": {
+   "provincia": "Valencia",
+   "convocatorias": 65,
+   "estatales": 17,
+   "presupuesto": 89650103,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 29,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 15,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 10,
+    "comercio": 9,
+    "profesionales": 8,
+    "peluqueria_estetica": 8,
+    "talleres_vehiculos": 8,
+    "industria": 6,
+    "hosteleria": 5,
+    "bares_restaurantes": 5,
+    "alojamiento": 5,
+    "construccion": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Valencia",
+     "convocatorias": 7
+    },
+    {
+     "nombre": "Massamagrell",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Algemesí",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Ontinyent",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Enguera",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de 1 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVFGA), por la que se deja sin efecto la Resolución de 4 de septiembre de 2025, del director de la Agencia Valenciana de Fomento y Garantía Agraria (AVF",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 25000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916654"
+    },
+    {
+     "titulo": "Convocatoria para el ejercicio 2026 ayudas a la pesca sostenible, acuicultura sostenible y campañas de promoción FEMPA 2021-2027",
+     "organo": "COMUNITAT VALENCIANA / SECRETARÍA AUTONÓMICA DE AGRICULTURA, GANADERÍA Y PESCA",
+     "presupuesto": 16260000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917678"
+    },
+    {
+     "titulo": "Ayudas para impulsar proyectos industriales que sean estratégicos para la reindustrialización de la Comunitat Valenciana. Ejercicio 2026. STRATG.",
+     "organo": "COMUNITAT VALENCIANA / SECRETARIA AUTONÓMICA DE INDUSTRIA, COMERCIO Y CONSUMO",
+     "presupuesto": 12653146,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916933"
+    },
+    {
+     "titulo": "Resolución 30 de julio de 2026, del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan, para el año 2026, las ayudas, financiadas por FEADER, para la aplicación de las intervenciones en materia forestal 6881.4 Inversio",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 12497945,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922963"
+    },
+    {
+     "titulo": "Resolución del 25 septiembre de 2026 del director de la Agencia Valenciana de Fomento y Garantía Agraria, por la que se convocan ayudas al establecimiento de personas jóvenes agricultoras y nuevos agricultores de la Comunitat Valenciana en el marco del Pl",
+     "organo": "COMUNITAT VALENCIANA / AGENCIA VALENCIANA DE FOMENTO Y GARANTÍA AGRARIA",
+     "presupuesto": 8270000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931561"
+    }
+   ]
+  },
+  "Ibiza y Formentera": {
+   "provincia": "Ibiza y Formentera",
+   "convocatorias": 45,
+   "estatales": 17,
+   "presupuesto": 52577458,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 3,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 20,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 11,
+    "peluqueria_estetica": 6,
+    "industria": 5,
+    "profesionales": 5,
+    "talleres_vehiculos": 5,
+    "transporte": 2,
+    "transporte_autonomo": 2,
+    "comercio": 1,
+    "hosteleria": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Formentera",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Sant Antoni de Portmany",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Convocatoria de subvenciones con el objeto de financiar grados B de Formación Profesional, dirigidos a personas trabajadoras ocupadas, desocupadas y con especiales dificultades formativas o de inserción laboral (SOIB Grados B de FP) para el periodo 26-29",
+     "organo": "ILLES BALEARS / SERVICIO DE OCUPACIÓN DE LAS ISLAS BALEARES (SOIB)",
+     "presupuesto": 21000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922808"
+    },
+    {
+     "titulo": "Subvenciones para inversiones en explotaciones agrarias 2026. LÍNEA A",
+     "organo": "ILLES BALEARS / FONDO DE GARANTÍA AGRARIA Y PESQUERA DE LAS ISLAS BALEARES (FOGAIBA)",
+     "presupuesto": 7700000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930981"
+    },
+    {
+     "titulo": "AYUDAS DESTINADAS A PROMOVER GRANDES ACTUACIONES DE INVERSIÓN PARA LA MODERNIZACIÓN DE LA ESTRUCTURA PRODUCTIVA Y DIGITAL DE LA ACTIVIDAD INDUSTRIAL 2026",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE POLÍTICA INDUSTRIAL",
+     "presupuesto": 5900000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918135"
+    },
+    {
+     "titulo": "Convocatoria de subvenciones para mejoras en eficiencia energética y la innovación en materia de procesos y de organización en el ámbito turístico de las Illes Balears",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE TURISMO Y DEPORTES",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920127"
+    },
+    {
+     "titulo": "Convocatoria para dar soporte a proyectos transformadores y de impacto de investigación e innovación biomédica",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE ACREDITACIÓN, DOCENCIA E INVESTIGACIÓN EN SALUD",
+     "presupuesto": 1875000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919477"
+    }
+   ]
+  },
+  "Mallorca": {
+   "provincia": "Mallorca",
+   "convocatorias": 47,
+   "estatales": 17,
+   "presupuesto": 51396890,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 20,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 10,
+    "industria": 7,
+    "talleres_vehiculos": 7,
+    "peluqueria_estetica": 6,
+    "profesionales": 5,
+    "comercio": 3,
+    "transporte": 3,
+    "transporte_autonomo": 3,
+    "construccion": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Palma",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Felanitx",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Andratx",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Pollença",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Alcúdia",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Convocatoria de subvenciones con el objeto de financiar grados B de Formación Profesional, dirigidos a personas trabajadoras ocupadas, desocupadas y con especiales dificultades formativas o de inserción laboral (SOIB Grados B de FP) para el periodo 26-29",
+     "organo": "ILLES BALEARS / SERVICIO DE OCUPACIÓN DE LAS ISLAS BALEARES (SOIB)",
+     "presupuesto": 21000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922808"
+    },
+    {
+     "titulo": "Subvenciones para inversiones en explotaciones agrarias 2026. LÍNEA A",
+     "organo": "ILLES BALEARS / FONDO DE GARANTÍA AGRARIA Y PESQUERA DE LAS ISLAS BALEARES (FOGAIBA)",
+     "presupuesto": 7700000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930981"
+    },
+    {
+     "titulo": "AYUDAS DESTINADAS A PROMOVER GRANDES ACTUACIONES DE INVERSIÓN PARA LA MODERNIZACIÓN DE LA ESTRUCTURA PRODUCTIVA Y DIGITAL DE LA ACTIVIDAD INDUSTRIAL 2026",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE POLÍTICA INDUSTRIAL",
+     "presupuesto": 5900000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918135"
+    },
+    {
+     "titulo": "Convocatoria de subvenciones para mejoras en eficiencia energética y la innovación en materia de procesos y de organización en el ámbito turístico de las Illes Balears",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE TURISMO Y DEPORTES",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920127"
+    },
+    {
+     "titulo": "Convocatoria para dar soporte a proyectos transformadores y de impacto de investigación e innovación biomédica",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE ACREDITACIÓN, DOCENCIA E INVESTIGACIÓN EN SALUD",
+     "presupuesto": 1875000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919477"
+    }
+   ]
+  },
+  "Menorca": {
+   "provincia": "Menorca",
+   "convocatorias": 44,
+   "estatales": 17,
+   "presupuesto": 52557770,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 5,
+    "Comunidad autónoma": 21,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 14,
+    "profesionales": 7,
+    "industria": 6,
+    "talleres_vehiculos": 5,
+    "peluqueria_estetica": 4,
+    "comercio": 2,
+    "transporte": 2,
+    "transporte_autonomo": 2,
+    "construccion": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Convocatoria de subvenciones con el objeto de financiar grados B de Formación Profesional, dirigidos a personas trabajadoras ocupadas, desocupadas y con especiales dificultades formativas o de inserción laboral (SOIB Grados B de FP) para el periodo 26-29",
+     "organo": "ILLES BALEARS / SERVICIO DE OCUPACIÓN DE LAS ISLAS BALEARES (SOIB)",
+     "presupuesto": 21000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922808"
+    },
+    {
+     "titulo": "Subvenciones para inversiones en explotaciones agrarias 2026. LÍNEA A",
+     "organo": "ILLES BALEARS / FONDO DE GARANTÍA AGRARIA Y PESQUERA DE LAS ISLAS BALEARES (FOGAIBA)",
+     "presupuesto": 7700000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930981"
+    },
+    {
+     "titulo": "AYUDAS DESTINADAS A PROMOVER GRANDES ACTUACIONES DE INVERSIÓN PARA LA MODERNIZACIÓN DE LA ESTRUCTURA PRODUCTIVA Y DIGITAL DE LA ACTIVIDAD INDUSTRIAL 2026",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE POLÍTICA INDUSTRIAL",
+     "presupuesto": 5900000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918135"
+    },
+    {
+     "titulo": "Convocatoria de subvenciones para mejoras en eficiencia energética y la innovación en materia de procesos y de organización en el ámbito turístico de las Illes Balears",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE TURISMO Y DEPORTES",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920127"
+    },
+    {
+     "titulo": "Convocatoria para dar soporte a proyectos transformadores y de impacto de investigación e innovación biomédica",
+     "organo": "ILLES BALEARS / DIRECCIÓN GENERAL DE ACREDITACIÓN, DOCENCIA E INVESTIGACIÓN EN SALUD",
+     "presupuesto": 1875000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/919477"
+    }
+   ]
+  },
+  "Almería": {
+   "provincia": "Almería",
+   "convocatorias": 39,
+   "estatales": 17,
+   "presupuesto": 144482436,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 12,
+    "industria": 3,
+    "profesionales": 3,
+    "comercio": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2,
+    "hosteleria": 1,
+    "transporte": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Roquetas de Mar",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Cádiz": {
+   "provincia": "Cádiz",
+   "convocatorias": 40,
+   "estatales": 17,
+   "presupuesto": 144063263,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 5
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 6,
+    "comercio": 5,
+    "hosteleria": 4,
+    "transporte": 4,
+    "bares_restaurantes": 4,
+    "alojamiento": 4,
+    "transporte_autonomo": 4,
+    "construccion": 3,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "industria": 2
+   },
+   "municipios": [
+    {
+     "nombre": "San Fernando",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Córdoba": {
+   "provincia": "Córdoba",
+   "convocatorias": 45,
+   "estatales": 17,
+   "presupuesto": 145553148,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 7,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 4,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "industria": 2,
+    "comercio": 1,
+    "hosteleria": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1,
+    "alimentacion_artesana": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Córdoba",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Iznájar",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Montilla",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Bujalance",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Pedro Abad",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Granada": {
+   "provincia": "Granada",
+   "convocatorias": 49,
+   "estatales": 17,
+   "presupuesto": 145421727,
+   "sin_presupuesto": 1,
+   "por_ambito": {
+    "Ayuntamiento": 1,
+    "Diputación / Cabildo / Consell": 5,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 10
+   },
+   "para_cualquier_negocio": 8,
+   "por_sector": {
+    "agricultura": 14,
+    "industria": 3,
+    "profesionales": 3,
+    "comercio": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Santa Fe",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Huelva": {
+   "provincia": "Huelva",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 143822736,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 3,
+    "industria": 2
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Jaén": {
+   "provincia": "Jaén",
+   "convocatorias": 44,
+   "estatales": 17,
+   "presupuesto": 144228998,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 6,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 3,
+    "industria": 2,
+    "comercio": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Alcalá la Real",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Villacarrillo",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Andújar",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Málaga": {
+   "provincia": "Málaga",
+   "convocatorias": 49,
+   "estatales": 17,
+   "presupuesto": 152056686,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 7
+   },
+   "para_cualquier_negocio": 2,
+   "por_sector": {
+    "agricultura": 11,
+    "profesionales": 6,
+    "peluqueria_estetica": 6,
+    "talleres_vehiculos": 6,
+    "hosteleria": 4,
+    "bares_restaurantes": 4,
+    "alojamiento": 4,
+    "industria": 3,
+    "comercio": 2,
+    "transporte": 1,
+    "construccion": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Alhaurín el Grande",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Málaga",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Marbella",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de Presidencia 2026/6590 de 9 de septiembre, de aprobación de la Convocatoria de subvenciones para la recuperación económica de la industria agroalimentaria, la agricultura, la ganadería y la pesca en la provincia de Málaga (Plan Málaga VI).",
+     "organo": "DIPUTACIÓN PROV. DE MÁLAGA / DIPUTACIÓN PROVINCIAL DE MÁLAGA",
+     "presupuesto": 5453894,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928621"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    }
+   ]
+  },
+  "Sevilla": {
+   "provincia": "Sevilla",
+   "convocatorias": 41,
+   "estatales": 17,
+   "presupuesto": 144368236,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 16,
+    "Estado": 17,
+    "Otros organismos": 3
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 4,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "comercio": 2,
+    "transporte": 2,
+    "industria": 2,
+    "transporte_autonomo": 2,
+    "hosteleria": 1,
+    "construccion": 1,
+    "bares_restaurantes": 1,
+    "alojamiento": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Sevilla",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "El Cuervo de Sevilla",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Alcalá de Guadaíra",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "Resolución de la Dirección General de Formación Profesional para el Empleo, por la que se convocan para el año 2026 las subvenciones públicas previstas en la Orden de 13 de septiembre de 2021, por la que se regula el programa de empleo y formación en la C",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 116506379,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/920309"
+    },
+    {
+     "titulo": "Resolución 17 septiembre 2026, por la que se convocan para el ejercicio 2026 las ayudas dirigidas al apoyo a la prestación de servicios de asesoramiento (intervención 7202.05 Asesoramiento básico PEPAC)",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "presupuesto": 6000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930364"
+    },
+    {
+     "titulo": "Resolución de 3 de julio de 2026, de FPE convocatoria general 2026 Línea 1: Ofertas formativas de formación en el trabajo para personas trabajadoras desempleadas, en modalidad presencial",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 5000000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917213"
+    },
+    {
+     "titulo": "Resolución de 21 de setiembre de , convocatoria Linea 2 Energía del Programa 1 Sector residencial y edificios e instalaciones públicas. Act. Eiciencia energética en viviendas y edificios residenciales privados y públicos no residen. REG (UE) 651/2014",
+     "organo": "ANDALUCÍA / AGENCIA ANDALUZA DE LA ENERGÍA",
+     "presupuesto": 3850877,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/930702"
+    },
+    {
+     "titulo": "Resolución de 30 de julio de 2026, DGIECE, para la inserción laboral y el fomento de la contratación en el ámbito de la Comunidad Autónoma de Andalucía. Programa Emplea-T (Línea 5). MINIMI GENERAL",
+     "organo": "ANDALUCÍA / CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "presupuesto": 3500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922528"
+    }
+   ]
+  },
+  "Murcia": {
+   "provincia": "Murcia",
+   "convocatorias": 56,
+   "estatales": 17,
+   "presupuesto": 32397303,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 33,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 13,
+   "por_sector": {
+    "agricultura": 9,
+    "comercio": 3,
+    "hosteleria": 3,
+    "transporte": 3,
+    "profesionales": 3,
+    "transporte_autonomo": 3,
+    "industria": 2,
+    "bares_restaurantes": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2,
+    "alimentacion_artesana": 2,
+    "alojamiento": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Cartagena",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Cieza",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "ACCIONES FORMATIVAS 2026 (MODALIDAD 2) - FORMACIÓN PROFESIONAL PARA EL EMPLEO - EDUCACIÓN",
+     "organo": "REGIÓN DE MURCIA / SERVICIO REGIONAL DE EMPLEO Y FORMACIÓN (SEF)",
+     "presupuesto": 13868166,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922940"
+    },
+    {
+     "titulo": "ACCIONES FORMATIVAS SECTOR INDUSTRIA 2026 (MODALIDAD 2)",
+     "organo": "REGIÓN DE MURCIA / SERVICIO REGIONAL DE EMPLEO Y FORMACIÓN (SEF)",
+     "presupuesto": 4079323,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923169"
+    },
+    {
+     "titulo": "Subvenciones de fomento de la Economía Social. Programa 1º Empleo en Cooperativas y Sociedades Laborales",
+     "organo": "REGIÓN DE MURCIA / CONSEJERÍA DE EMPRESA, EMPLEO Y ECONOMÍA SOCIAL",
+     "presupuesto": 2780000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/928486"
+    },
+    {
+     "titulo": "ORDEN DE 6 JULIO 2026 DE LA CONSEJERÍA DE AGUA, AGRICULTURA, GANADERÍA Y PESCA POR LA QUE SE APRUEBA CONVOCATORIA DE LAS AYUDAS LEADER FINANCIADAS POR LA INTERVENCIÓN 7119 PARA EJECUCIÓN DE PROYECTOS NO PROGRAMADOS EN EL MARCO DEL PEPAC DEL GAL INTEGRAL.",
+     "organo": "REGIÓN DE MURCIA / CONSEJERÍA DE AGUA, AGRICULTURA, GANADERÍA Y PESCA",
+     "presupuesto": 2004079,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917542"
+    },
+    {
+     "titulo": "ORDEN DE 6 JULIO 2026 DE LA CONSEJERÍA DE AGUA, AGRICULTURA, GANADERÍA Y PESCA POR LA QUE SE APRUEBA CONVOCATORIA DE LAS AYUDAS LEADER FINANCIADAS POR LA INTERVENCION 7119 PARA EJECUCIÓN DE PROYECTOS NO PROGRAMADOS EN EL MARCO DEL PEPAC DEL GAL CAMPODER.",
+     "organo": "REGIÓN DE MURCIA / CONSEJERÍA DE AGUA, AGRICULTURA, GANADERÍA Y PESCA",
+     "presupuesto": 1740084,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/917625"
+    }
+   ]
+  },
+  "Ceuta": {
+   "provincia": "Ceuta",
+   "convocatorias": 20,
+   "estatales": 17,
+   "presupuesto": 85482,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 0,
+    "Estado": 17,
+    "Otros organismos": 2
+   },
+   "para_cualquier_negocio": 1,
+   "por_sector": {
+    "profesionales": 3,
+    "agricultura": 2,
+    "industria": 2
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA LOS ADJUDICATARIOS DE REPRODUCTORES SELECTOS DE GANADO EN SUBASTAS NACIONALES CELEBRADAS EN EL MERCADO REGIONAL DE GANADOS 2026",
+     "organo": "DIPUTACIÓN PROV. DE SALAMANCA / DIPUTACIÓN DE SALAMANCA",
+     "presupuesto": 41000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925376"
+    },
+    {
+     "titulo": "5ª Edición del programa de captación de proyectos empresariales de carácter innovador vinculados al sector agroalimentario (AgrotecUV)",
+     "organo": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
+     "presupuesto": 36000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927266"
+    },
+    {
+     "titulo": "Segunda convocatoria de ayudas económicas destinadas al fomento del empleo Ayudas a la contratación Anualidad 2026. PROGRAMA TALENTO JOVEN. Cámara de Comercio de Ceuta",
+     "organo": "CÁMARA DE COMERCIO DE CEUTA",
+     "presupuesto": 8482,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931148"
+    }
+   ]
+  },
+  "Melilla": {
+   "provincia": "Melilla",
+   "convocatorias": 20,
+   "estatales": 16,
+   "presupuesto": 277000,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 1,
+    "Comunidad autónoma": 2,
+    "Estado": 16,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 0,
+   "por_sector": {
+    "profesionales": 3,
+    "agricultura": 2,
+    "industria": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA Y BASES REGULADORAS DE LAS SUBVENCIONES PÚBLICAS DESTINADAS A LA MODERNIZACIÓN DE INSTALACIONES DE AGUA PARA EDIFICIOS EN LA CIUDAD AUTÓNOMA DE MELILLA 2026",
+     "organo": "CIUDAD AUTÓNOMA DE MELILLA / CONSEJERÍA DE MEDIO AMBIENTE Y NATURALEZA",
+     "presupuesto": 120000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/926291"
+    },
+    {
+     "titulo": "BASES REGULADORAS Y CONVOCATORIA DE LA SUBVENCIÓN PARA LA RENOVACIÓN DE LA FLOTA DE EUROTAXIS 2026",
+     "organo": "CIUDAD AUTÓNOMA DE MELILLA / CONSEJERÍA DE MEDIO AMBIENTE Y NATURALEZA",
+     "presupuesto": 80000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/916437"
+    },
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA LOS ADJUDICATARIOS DE REPRODUCTORES SELECTOS DE GANADO EN SUBASTAS NACIONALES CELEBRADAS EN EL MERCADO REGIONAL DE GANADOS 2026",
+     "organo": "DIPUTACIÓN PROV. DE SALAMANCA / DIPUTACIÓN DE SALAMANCA",
+     "presupuesto": 41000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925376"
+    },
+    {
+     "titulo": "5ª Edición del programa de captación de proyectos empresariales de carácter innovador vinculados al sector agroalimentario (AgrotecUV)",
+     "organo": "UNIVERSITAT DE VALÈNCIA (ESTUDI GENERAL)",
+     "presupuesto": 36000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/927266"
+    }
+   ]
+  },
+  "El Hierro": {
+   "provincia": "El Hierro",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 101895944,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 8,
+    "profesionales": 3,
+    "industria": 2
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    },
+    {
+     "titulo": "SUBVENCIONES PARA INVERSIONES EMPRESAS ECONOMÍA SOCIAL EN CANARIAS",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931597"
+    }
+   ]
+  },
+  "Fuerteventura": {
+   "provincia": "Fuerteventura",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 104718957,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 2,
+    "Diputación / Cabildo / Consell": 3,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 2,
+   "por_sector": {
+    "agricultura": 10,
+    "profesionales": 3,
+    "industria": 2,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Antigua",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Pájara",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "CONVOCATORIA PÚBLICA SUBVENCIONES GENÉRICAS: LÍNEA 1.-SUBVENCIÓN AGRUPACIONES DEFENSA SANITARIA GANADERA, LÍNEA 4.- SUBVENCIONES FOMENTO RECRÍA GANADERA, Y, LÍNEA 13.-SUBVENCIÓN AYUDAS AGROPECUARIAS Y PESQUERAS INDIVIDUALES PARA INVERSIONES INVENTARIABLES",
+     "organo": "CABILDO INSULAR DE FUERTEVENTURA / CABILDO INSULAR DE FUERTEVENTURA",
+     "presupuesto": 2875000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/922631"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    }
+   ]
+  },
+  "Gran Canaria": {
+   "provincia": "Gran Canaria",
+   "convocatorias": 41,
+   "estatales": 17,
+   "presupuesto": 103636599,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 4,
+    "Diputación / Cabildo / Consell": 4,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 11,
+    "profesionales": 3,
+    "industria": 2,
+    "comercio": 1,
+    "hosteleria": 1,
+    "bares_restaurantes": 1,
+    "peluqueria_estetica": 1,
+    "talleres_vehiculos": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Gáldar",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Ingenio",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Arucas",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Mogán",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    },
+    {
+     "titulo": "SUBVENCIONES PARA INVERSIONES EMPRESAS ECONOMÍA SOCIAL EN CANARIAS",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931597"
+    }
+   ]
+  },
+  "La Gomera": {
+   "provincia": "La Gomera",
+   "convocatorias": 35,
+   "estatales": 17,
+   "presupuesto": 101945944,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 2,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 7,
+    "profesionales": 3,
+    "industria": 2,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    },
+    {
+     "titulo": "SUBVENCIONES PARA INVERSIONES EMPRESAS ECONOMÍA SOCIAL EN CANARIAS",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931597"
+    }
+   ]
+  },
+  "La Palma": {
+   "provincia": "La Palma",
+   "convocatorias": 45,
+   "estatales": 17,
+   "presupuesto": 106874386,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 5,
+    "Diputación / Cabildo / Consell": 6,
+    "Comunidad autónoma": 13,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 8,
+   "por_sector": {
+    "agricultura": 9,
+    "profesionales": 3,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "industria": 2,
+    "transporte": 1,
+    "transporte_autonomo": 1
+   },
+   "municipios": [
+    {
+     "nombre": "Breña Baja",
+     "convocatorias": 3
+    },
+    {
+     "nombre": "Santa Cruz de la Palma",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Breña Alta",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Orden Consejeria Agricultura ayudas minimis según Ley 9/2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 3417841,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/924618"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    }
+   ]
+  },
+  "Lanzarote": {
+   "provincia": "Lanzarote",
+   "convocatorias": 38,
+   "estatales": 17,
+   "presupuesto": 104815559,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 0,
+    "Diputación / Cabildo / Consell": 8,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 1
+   },
+   "para_cualquier_negocio": 2,
+   "por_sector": {
+    "agricultura": 11,
+    "profesionales": 3,
+    "industria": 2,
+    "peluqueria_estetica": 2,
+    "talleres_vehiculos": 2
+   },
+   "municipios": [],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    },
+    {
+     "titulo": "SUBVENCIONES PARA INVERSIONES EMPRESAS ECONOMÍA SOCIAL EN CANARIAS",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931597"
+    }
+   ]
+  },
+  "Tenerife": {
+   "provincia": "Tenerife",
+   "convocatorias": 47,
+   "estatales": 17,
+   "presupuesto": 103660944,
+   "sin_presupuesto": 0,
+   "por_ambito": {
+    "Ayuntamiento": 9,
+    "Diputación / Cabildo / Consell": 5,
+    "Comunidad autónoma": 12,
+    "Estado": 17,
+    "Otros organismos": 4
+   },
+   "para_cualquier_negocio": 5,
+   "por_sector": {
+    "agricultura": 9,
+    "comercio": 4,
+    "profesionales": 4,
+    "hosteleria": 3,
+    "transporte": 3,
+    "bares_restaurantes": 3,
+    "alojamiento": 3,
+    "peluqueria_estetica": 3,
+    "talleres_vehiculos": 3,
+    "transporte_autonomo": 3,
+    "industria": 2
+   },
+   "municipios": [
+    {
+     "nombre": "Santiago del Teide",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Tacoronte",
+     "convocatorias": 2
+    },
+    {
+     "nombre": "Arona",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Los Realejos",
+     "convocatorias": 1
+    },
+    {
+     "nombre": "Granadilla de Abona",
+     "convocatorias": 1
+    }
+   ],
+   "mas_dinero": [
+    {
+     "titulo": "CONVOCATORIA DE SUBVENCIONES PARA ACCIONES FORMATIVAS PARA DESEMPLEADOS FPED 2026",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 58500000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/925172"
+    },
+    {
+     "titulo": "POSEI Ayudas Esstado 2025",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 19514183,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923025"
+    },
+    {
+     "titulo": "Subvención POSEICAN pesca, periodo 2021-2027",
+     "organo": "CANARIAS / CONSEJERÍA DE AGRICULTURA, GANADERÍA, PESCA Y SOBERANÍA ALIMENTARIA",
+     "presupuesto": 16603774,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/923024"
+    },
+    {
+     "titulo": "Convocatoria subvenciones DIGINNOVA PARA LA INCORPORACIÓN DE TALENTO JOVEN A LAS EMPRESAS Y CENTROS DE INVESTIGACIÓN DE CANARIAS 2026",
+     "organo": "CANARIAS / CONSEJERÍA DE UNIVERSIDADES, CIENCIA E INNOVACIÓN Y CULTURA",
+     "presupuesto": 2250000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/918019"
+    },
+    {
+     "titulo": "SUBVENCIONES PARA INVERSIONES EMPRESAS ECONOMÍA SOCIAL EN CANARIAS",
+     "organo": "CANARIAS / SERVICIO CANARIO DE EMPLEO",
+     "presupuesto": 1800000,
+     "ficha": "https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/931597"
+    }
+   ]
+  }
+ },
+ "ayuntamientos_sin_provincia": 50
+}
