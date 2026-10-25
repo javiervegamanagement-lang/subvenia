@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:936136@subvenia
+DTSTAMP:20261217T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Último día: Misión comercial a Colombia y R. Dominicana: 80 % pa
+ gado (CLM)
+DESCRIPTION:Hasta 3.208 € por empresa: 1.768 € de consultoría de agend
+ a de reuniones y 1.440 € de viaje de una persona (80 % de un coste máxi
+ mo de 4.010 €). Bolsa total de 22.456 €.\nPlazo: Hasta el 17 de diciem
+ bre de 2026 (puede ampliarse).\nCómo pedirla: https://www.jccm.es/tramite
+ s\nFicha oficial (Fuente: BDNS): https://www.infosubvenciones.es/bdnstrans
+ /GE/es/convocatorias/936136\nComprueba siempre las bases oficiales. Subven
+ ia
+URL:https://www.jccm.es/tramites
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Misión comercial a Colombia y R. Do
+ minicana: 80 % pagado (CLM)
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:921283@subvenia
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Último día: Ayuda por contratar a jóvenes o mayores de 45 en Cas
+ tilla-La Mancha
+DESCRIPTION:Consultar bases (el importe por contrato no sale en la convocat
+ oria). Presupuesto total de 4.970.000 €\, ampliable hasta un 50 % más.\
+ nPlazo: Hasta el 10 de noviembre de 2026\nCómo pedirla: https://www.jccm.
+ es\nFicha oficial (Fuente: BDNS): https://www.infosubvenciones.es/bdnstran
+ s/GE/es/convocatorias/921283\nComprueba siempre las bases oficiales. Subve
+ nia
+URL:https://www.jccm.es
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ayuda por contratar a jóvenes o may
+ ores de 45 en Castilla-La Mancha
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

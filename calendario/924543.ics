@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:924543@subvenia
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Último día: Plan RENOVE V Cantabria: ayuda para cambiar coche o f
+ urgoneta
+DESCRIPTION:Para autónomos y empresas: 4.000 € (hasta 110 g/km de CO2)\,
+  2.600 € (de 111 a 135 g/km) o 3.000 € (híbridos no enchufables\, GLP
+  o GNC). Se suman 1.000 € si el concesionario está en el Sistema Arbitr
+ al de Consumo. Además\, el concesionario aplica 1.000 € de descuento an
+ tes de impuestos. Bolsa total estimada de 1.194.000 €.\nPlazo: Hasta el 
+ 31 de octubre de 2026: la compra\, la factura y la matriculación deben es
+ tar dentro de ese plazo.\nCómo pedirla: https://sede.cantabria.es\nFicha 
+ oficial (Fuente: BDNS): https://www.infosubvenciones.es/bdnstrans/GE/es/co
+ nvocatorias/924543\nComprueba siempre las bases oficiales. Subvenia
+URL:https://sede.cantabria.es
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Plan RENOVE V Cantabria: ayuda para 
+ cambiar coche o furgoneta
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

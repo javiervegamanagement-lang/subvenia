@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:936534@subvenia
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Último día: Ayuda para visitar la feria ecológica Biofach (Casti
+ lla-La Mancha)
+DESCRIPTION:Hasta 1.820 € por empresa: 1.300 € por el viaje de una pers
+ ona y 520 € por el transporte de muestras (65 % del gasto). Bolsa total 
+ de 21.840 €.\nPlazo: Hasta el 20 de noviembre de 2026\nCómo pedirla: ht
+ tps://www.jccm.es/tramites\nFicha oficial (Fuente: BDNS): https://www.info
+ subvenciones.es/bdnstrans/GE/es/convocatorias/936534\nComprueba siempre la
+ s bases oficiales. Subvenia
+URL:https://www.jccm.es/tramites
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ayuda para visitar la feria ecológi
+ ca Biofach (Castilla-La Mancha)
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

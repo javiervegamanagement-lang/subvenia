@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:933593@subvenia
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Último día: Ayuda de hasta 8.000 € para exportar desde Castilla
+ -La Mancha
+DESCRIPTION:100 % del gasto\, hasta 5.000 € por empresa en las líneas de
+  iniciación y hasta 8.000 € en las de consolidación (según el texto\,
+  las dos de consolidación). Bolsa total de 900.000 €.\nPlazo: El plazo 
+ era de un mes desde el día siguiente a su publicación en el DOCM. La fic
+ ha lo da como cerrado y la fecha fin es el 9 de noviembre. Consultar bases
+  y la sede electrónica antes de preparar nada.\nCómo pedirla: https://ww
+ w.jccm.es/tramites\nFicha oficial (Fuente: BDNS): https://www.infosubvenci
+ ones.es/bdnstrans/GE/es/convocatorias/933593\nComprueba siempre las bases 
+ oficiales. Subvenia
+URL:https://www.jccm.es/tramites
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ayuda de hasta 8.000 € para export
+ ar desde Castilla-La Mancha
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

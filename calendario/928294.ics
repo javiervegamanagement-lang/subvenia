@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:928294@subvenia
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Último día: Ayuda para ir a la feria de vino a granel de Ámsterd
+ am (bodegas CLM)
+DESCRIPTION:20 % del stand\, hasta 1.560 € por empresa (sobre un coste m
+ áximo de 7.800 €). Bolsa total de 28.080 €.\nPlazo: Hasta el 10 de no
+ viembre de 2026\nCómo pedirla: https://www.jccm.es/tramites\nFicha oficia
+ l (Fuente: BDNS): https://www.infosubvenciones.es/bdnstrans/GE/es/convocat
+ orias/928294\nComprueba siempre las bases oficiales. Subvenia
+URL:https://www.jccm.es/tramites
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ayuda para ir a la feria de vino a g
+ ranel de Ámsterdam (bodegas CLM)
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

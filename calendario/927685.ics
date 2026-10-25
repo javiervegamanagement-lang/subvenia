@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:927685@subvenia
+DTSTAMP:20270630T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Último día: Bono Crecimiento Pyme CLM: hasta 60.000 € para crec
+ er
+DESCRIPTION:60 % del gasto si sacas de 20 a 40 puntos\, 80 % si sacas más 
+ de 40. Máx. 12.000 € por actuación y 60.000 € por empresa. Bolsa tot
+ al de 9.000.000 €.\nPlazo: Hasta el 30 de junio de 2027\, o hasta que se
+  agote el dinero. Se resuelve por orden de entrada.\nCómo pedirla: https:
+ //www.jccm.es\nFicha oficial (Fuente: BDNS): https://www.infosubvenciones.
+ es/bdnstrans/GE/es/convocatorias/927685\nComprueba siempre las bases ofici
+ ales. Subvenia
+URL:https://www.jccm.es
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Bono Crecimiento Pyme CLM: hasta 60.
+ 000 € para crecer
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

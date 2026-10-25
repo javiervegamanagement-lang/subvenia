@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:935676@subvenia
+DTSTAMP:20261210T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Último día: Misión comercial a México 2027: ayuda de hasta 2.24
+ 0 € por empresa
+DESCRIPTION:Hasta 2.240 € por empresa: 960 € de consultoría (80 % de 1
+ .200 €) y 1.280 € de viaje (80 % de 1.600 €). Bolsa total de 15.680 
+ €.\nPlazo: Hasta el 10 de diciembre de 2026\nCómo pedirla: https://www.
+ jccm.es/tramites\nFicha oficial (Fuente: BDNS): https://www.infosubvencion
+ es.es/bdnstrans/GE/es/convocatorias/935676\nComprueba siempre las bases of
+ iciales. Subvenia
+URL:https://www.jccm.es/tramites
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Misión comercial a México 2027: ay
+ uda de hasta 2.240 € por empresa
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

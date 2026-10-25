@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Subvenia//Ayudas publicas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:911612@subvenia
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Último día: Ciudad Real: hasta 6.000 € para modernizar tu peque
+ ño comercio
+DESCRIPTION:Hasta el 70 % de la inversión\, máx. 6.000 € por negocio. B
+ olsa total de 85.000 €.\nPlazo: Hasta las 23:59 del 30 de octubre\nCómo
+  pedirla: https://sedescr.dipucr.es/impefe/\nFicha oficial (Fuente: BDNS):
+  https://www.infosubvenciones.es/bdnstrans/GE/es/convocatorias/911612\nCom
+ prueba siempre las bases oficiales. Subvenia
+URL:https://sedescr.dipucr.es/impefe/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Quedan 3 días para pedir: Ciudad Real: hasta 6.000 € para mo
+ dernizar tu pequeño comercio
+TRIGGER:-P2DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
