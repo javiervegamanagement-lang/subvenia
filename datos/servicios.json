@@ -1,0 +1,6 @@
+{
+ "api": "https://subvenia-api.javiervegamanagement.workers.dev",
+ "panel": true,
+ "tramitacion": true,
+ "turnstile": "0x4AAAAAAFmYy-47hovZTtAX"
+}
